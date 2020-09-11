@@ -2,12 +2,12 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Command Examples
 
- * [Make a helical filament atomic model](filament/filament.md).
- * [Color a sliced surface by B-factor](bfactor_clip/bfactor_clip.md).
- * [Show surface exposed hydrophobic residues](surface_residues/surface_residues.md).
+ * [Make a helical filament atomic model](filament/filament.md).  September 10, 2020
+ * [Color a sliced surface by B-factor](bfactor_clip/bfactor_clip.md).  September 9, 2020
+ * [Show surface exposed hydrophobic residues](surface_residues/surface_residues.md).  September 7, 2020
 
 ## Python Examples
 
- * [Change atom z coordinates z -> -z](flip_z/flip_z.md).
- * [Create spherical harmonic surface](spherical_harmonics/spherical_harmonics.md).
+ * [Change atom z coordinates z -> -z](flip_z/flip_z.md).  September 3, 2020
+ * [Create spherical harmonic surface](spherical_harmonics/spherical_harmonics.md).  August 28, 2020
  
