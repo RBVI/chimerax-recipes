@@ -1,1 +1,1 @@
-This is the source code for the [ChimeraX Recipes web site](http://rbvi.github.io/chimerax-recipes) utilizing GitHub Pages.
+This is the source code for the [ChimeraX Recipes web site](https://rbvi.github.io/chimerax-recipes) utilizing GitHub Pages.
