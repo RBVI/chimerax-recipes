@@ -1,5 +1,3 @@
-# ChimeraX Recipes
-
 These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use and Python scripts to perform various tasks.
 
 ## Command Examples
