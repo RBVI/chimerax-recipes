@@ -4,7 +4,7 @@ Chris Moth asked why ChimeraX does not use Biopython.  Biopython is a great pack
 
 ## How different are ChimeraX and Biopython in speed?
 
-I timed opening a 2 million atom mmCIF file [3j3q](https://www.rcsb.org/structure/3J3Q) and getting its atom coordinates.  ChimeraX was 16 times faster reading the mmCIF, uses 3 times less memory, lists atoms 100 times faster, and gets coordinates 200 times faster.
+I timed opening a 2 million atom mmCIF file [3j3q](https://www.rcsb.org/structure/3J3Q) and getting its atom coordinates.  ChimeraX was 16 times faster reading the mmCIF, uses 3 times less memory, makes a list of atoms 100 times faster, and gets coordinates 200 times faster.
 
 |    software    | read mmCIF | memory used | atom list | coordinates |
 |----------------|:----------:|:-----------:|:---------:|:-----------:|
