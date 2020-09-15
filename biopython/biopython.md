@@ -1,4 +1,4 @@
-# Speed of BioPython vs ChimeraX
+# Speed of Biopython vs ChimeraX
 
 Chris Moth asked why ChimeraX does not use Biopython.  Biopython is a great package for doing non-interactive calculations on molecular structures.  But ChimeraX is all about interactive analysis and speed is very important to make it usable.
 
