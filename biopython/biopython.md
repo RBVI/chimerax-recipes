@@ -11,7 +11,7 @@ I timed opening a 2 million atom mmCIF file and getting its atom coordinates.  C
 | Biopython 1.78 |  131 sec   |   6.2 GB    |  0.4 sec  |   9.5 sec   |
 | ChimeraX 1.1   |    8 sec   |   1.7 GB    | 0.004 sec |  0.04 sec   |
 
-<img src="3j3q.png">
+<img src="3j3q.png" width="400">
 
 ## Timing code
 
