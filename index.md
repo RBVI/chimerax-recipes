@@ -14,5 +14,5 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 # C++ Examples
 
- * [Running C++ computations in a separate thread](https://github.com/tristanic/async-hello-world)
+ * [Running C++ computations in a separate thread](https://github.com/tristanic/async-hello-world). October 1, 2020
  
