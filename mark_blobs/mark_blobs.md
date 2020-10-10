@@ -2,6 +2,8 @@
 
 Here is some ChimeraX Python code that puts a spherical marker at the center of each connected piece of a surface.  Brandon Scott [asked](https://plato.cgl.ucsf.edu/pipermail/chimerax-users/2020-October/001553.html) about this for tracking blobs in 3D light microscopy.   I pieced to together this code by looking at two existing ChimeraX features: the [mouse mode](https://www.cgl.ucsf.edu/chimerax/docs/user/tools/markers.html) for placing a marker at the center of a connected surface piece, and the [surface dust](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/surface.html#dust) command that hides all small connected surface pieces.
 
+This capability has been added to the ChimeraX distribution as the [mark connected](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/marker.html) command.
+
 The Python code [mark_blobs.py](mark_blobs.py) when opened in ChimeraX defines the markblobs command.  Here is an example use marking each blob of the X-ray density for PDB crystal structure 1a0m
 
     open ~/Downloads/mark_blobs.py
