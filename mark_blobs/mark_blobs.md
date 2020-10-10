@@ -12,8 +12,7 @@ The Python code [mark_blobs.py](mark_blobs.py) when opened in ChimeraX defines t
 
 Here is the bit that computes the centers
 
-{{{
-
+<pre>
 def surface_blob_centers(surface):
     '''
     Return an array of center positions for each connected set of
@@ -38,11 +37,11 @@ def surface_blob_centers(surface):
         centers[i] = blob_varea.dot(vertices[vi])/blob_area
 
     return centers
-}}}
+</pre>
 
 And here is some Python to define a command "markcenters" that runs this.
 
-{{{
+<pre>
 def markblobs(session, surface, radius = 0.5, color = (255,255,0,255)):
     centers = surface_blob_centers(surface)
     scene_centers = surface.scene_position * centers
@@ -64,6 +63,6 @@ def register_command(logger):
     register('markblobs', desc, markblobs, logger=logger)
 
 register_command(session.logger)
-}}}
+</pre>
 
 Tom Goddard, October 8, 2020
