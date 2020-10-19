@@ -8,6 +8,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Display square mesh grid](hide_diagonals/hide_diagonals.md).  October 19, 2020
  * [Place markers on connected surface pieces](mark_blobs/mark_blobs.md).  October 8, 2020
  * [Speed comparison with Biopython](biopython/biopython.md).  September 15, 2020
  * [Change atom z coordinates z -> -z](flip_z/flip_z.md).  September 3, 2020
