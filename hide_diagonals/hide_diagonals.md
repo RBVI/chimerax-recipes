@@ -5,7 +5,7 @@ Here is some ChimeraX Python code that hides lines of a mesh that are not parall
      shape rectangle width 20 height 20
      surface style #3 mesh
 
-But the rectangle is made up of triangles so the mesh shows triangles.  The Python code [hide_diagonals.py](hide_diagonals.py) below define a command hidediagonals that hides the lines that are not parallel x or y or z axes.
+But the rectangle is made up of triangles so the mesh shows triangles.  The Python code [hide_diagonals.py](hide_diagonals.py) below defines a command hidediagonals that hides the lines that are not parallel x or y or z axes.
 
 <img src="triangle_mesh.png" width="400">
 <img src="square_mesh.png" width="400">
