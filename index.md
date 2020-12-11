@@ -8,6 +8,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Save images of each chain of a structure](chain_images/chain_images.md).  December 11, 2020
  * [Display square mesh grid](hide_diagonals/hide_diagonals.md).  October 19, 2020
  * [Place markers on connected surface pieces](mark_blobs/mark_blobs.md).  October 8, 2020
  * [Speed comparison with Biopython](biopython/biopython.md).  September 15, 2020
