@@ -8,7 +8,7 @@ then use the command on the atomic model.
 
     chainimages #1
 
-<img src="chain_images.jpg">
+<img src="2bbv.jpg">
 
 Here is the [chain_images.py](chain_images.py) code:
 
