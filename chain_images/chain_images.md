@@ -19,9 +19,9 @@ Here is the [chain_images.py](chain_images.py) code:
     def chain_images(session, atoms):
         from chimearx.core.commands import run
         for structure, chain_id, chain_atoms in atoms.by_chain:
-	   run(session, 'show #%s/%s only' % (structure.id_string, chain_id))
-	   run(session, 'view all')
-	   run(session, 'save ~/Desktop/%s_chain_%s.png' % (structure.name, chain_id))
+           run(session, 'show #%s/%s only' % (structure.id_string, chain_id))
+           run(session, 'view all')
+           run(session, 'save ~/Desktop/%s_chain_%s.png' % (structure.name, chain_id))
 
     def register_command(session):
         from chimerax.core.commands import CmdDesc, register
