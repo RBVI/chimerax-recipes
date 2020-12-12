@@ -37,7 +37,7 @@ Here is the [chain_images.py](chain_images.py) code:
 
 The previous code saves an image for every chain.  What if we want to specify the chains
 
-    chainimage #1/A,B,C
+    chainimages #1/A,B,C
 
 Here is a variation on the code [chain_images2.py](chain_images2.py) that does that.
 
