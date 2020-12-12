@@ -33,6 +33,8 @@ Here is the [chain_images.py](chain_images.py) code:
 
     register_command(session)
 
+# Save an Image of specified Chains
+
 The previous code saves an image for every chain.  What if we want to specify the chains
 
     chainimage #1/A,B,C
