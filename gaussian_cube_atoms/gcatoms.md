@@ -1,8 +1,8 @@
 # Make atoms for Gaussian cube file
 
 ChimeraX can display wave-function volume data from Gaussian cube format files but it
-ignores the atoms listed in the file.  This script makes a model for the atoms.
-First you open the Gaussian cube file and then this script.
+ignores the atoms listed in the file.  Zack Gainsforth asked about how to show the atoms.
+This script makes the atoms.  First you open the Gaussian cube file and then this script.
 
     open wfc_K001_B329wfc.cube
     open make_atoms.py
