@@ -1,6 +1,6 @@
 # Make atoms for Gaussian cube file
 
-ChimeraX can display wave-function volume from Gaussian cube format files but it
+ChimeraX can display wave-function volume data from Gaussian cube format files but it
 ignores the atoms listed in the file.  This script makes a model for the atoms.
 First you open the Gaussian cube file and then this script.
 
@@ -11,7 +11,7 @@ ChimeraX is not designed to handle inorganic crystals so the bonds it creates
 maybe be wrong.  In this example image pink is aluminum, red is oxygen, green is
 magnesium, purple lines are predicted metal coordination.
 
-<img src="wfc_K001_B329wfc.jpg" width=500>
+<img src="wfc_K001_B329wfc.jpg">
 
 Here is the [make_atoms.py](make_atoms.py) code:
 
