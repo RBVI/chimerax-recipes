@@ -52,4 +52,4 @@ Here is the [make_atoms.py](make_atoms.py) code:
     make_gaussian_cube_atoms(session)
 
 
-Tom Goddard, January 18, 2021
+Tom Goddard, February 2, 2021
