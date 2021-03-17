@@ -84,7 +84,7 @@ def euler_rotation(euler_angles):
     R21, R22, R23 = cos(g) * cos(b) * sin(a) + sin(g) * cos(a), -sin(g) * cos(b) * sin(a) + cos(g) * cos(a), sin(b) * sin(a)
     R31, R32, R33 = -cos(g) * sin(b), sin(g) * sin(b), cos(b)
     from chimerax.geometry import Place
-    rot = Place(axes = ((R11, R12, R13), (R21, R22, R23), (R31, R32, R33)))
+    rot = Place(axes = ((R11, R21, R31), (R12, R22, R32), (R13, R23, R33)))
     return rot
 
 # Show ellipsoid in ChimeraX
