@@ -5,13 +5,13 @@
 # PyMol script produced by ROTDIF.
 
 #1. Center of Mass of the molecule
-cmx, cmy, cmz = 20.051, 6.333, -0.915
+cmx, cmy, cmz = 15.283, -0.593, -17.577
 #2. Ellipsoid semiaxes length (in Angstrom)
-a1,a2,a3 = 21.700, 24.645, 16.567
+a1,a2,a3 = 15.060, 17.239, 21.794
 #3. Color: see https://pymolwiki.org/index.php/Color_Values for more options
 color = [0.85, 0.85, 1.00]
 #4. Rotation Input: three Euler angles: alpha, beta, gamma (in degrees)
-rotationInput = [83.790, 114.370, 179.850]
+rotationInput = [167.270, 31.790, 177.690]
 
 
 
