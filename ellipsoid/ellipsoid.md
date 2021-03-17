@@ -1,6 +1,6 @@
 # Show a rotational diffusion tensor ellipsoid
 
-Arun Gupta asked on the ChimeraX mailing list about how to display a rotational
+Arun Gupta [asked](https://plato.cgl.ucsf.edu/pipermail/chimerax-users/2021-March/002033.html) on the ChimeraX mailing list about how to display a rotational
 diffusion tensor computed by [ROTDIF software](http://gandalf.umd.edu/FushmanLab/pdsw.html)
 as a mesh ellipsoid.  ROTDIF produces a PyMol Python script (for example
 [ELM_ellipsoid.py](ELM_ellipsoid.py)) to show the ellipsoid.  Here we make a similar
@@ -17,7 +17,7 @@ Here is an image Arun provided illustrating what is desired
 
 And here is an example of the ellipsoid produced by the ChimeraX script
 
-<img src="diffusion_tensor_ellipsoid.png">
+<img src="diffusion_tensor_ellipsoid.png" height=300>
 
 The ChimeraX script has at the top the 4 lines of parameters produced by ROTDIF.
 Opening the script [ELM_ellipsoid_chimerax.py](ELM_ellipsoid_chimerax.py) in ChimeraX
