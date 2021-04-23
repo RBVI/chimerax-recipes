@@ -2,6 +2,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Command Examples
 
+ * [Record a movie flipping through electron microscopy planes](planes/planes.md).  April 22, 2021
  * [Depict monomer rotation in a dimer](rotation_slabs/slabs.md).  December 18, 2020
  * [Make a helical filament atomic model](filament/filament.md).  September 10, 2020
  * [Color a sliced surface by B-factor](bfactor_clip/bfactor_clip.md).  September 9, 2020
