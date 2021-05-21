@@ -1,8 +1,8 @@
 # Read an MRC map file and write out a subregion
 
-;ChimeraX can read [MRC map files](https://www.ccpem.ac.uk/mrc_format/mrc_format.php)
+ChimeraX can read [MRC map files](https://www.ccpem.ac.uk/mrc_format/mrc_format.php)
 often used for electron microscopy and x-ray crystallography.
-Here is how to read an MRC file fetched from the EM Databank and write out a subbox region
+Here is how to read an MRC file fetched from the EM Databank and write out a subregion
 (grid points 130-190 in x, 100-180 in y, 160-220 in z) as another MRC file using ChimeraX commands
 
     open 11997 from emdb
