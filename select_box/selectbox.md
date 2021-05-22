@@ -1,6 +1,7 @@
 # Select atoms inside map bounds
 
-Here is Python code to select atoms within the bounds of a displayed map subregion.
+Here is a way to select atoms within a displayed map subregion using a command selectbox
+defined by the Python code below.
 
     open 7k3v
     open 22657 from emdb
