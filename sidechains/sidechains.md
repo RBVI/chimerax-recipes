@@ -34,7 +34,7 @@ I was curious how many atoms in the rebuilt side chains were moved far from thei
     atommotion #2 to #1
     select #1 @@motion>2
 
-which shows 2458 atoms have been moved by more than 2 Angstroms.  I show those moved atoms as red spheres.
+which shows 2458 atoms have been moved by more than 2 Angstroms.  I show those moved atoms as red spheres.  Here is a ChimeraX 1.2 session file [6o9z_sidechains.cxs](6o9z_sidechains.cxs) showing these results.
 
 <a href="6o9z_moved.png"><img src="6o9z_moved.png" width="300"></a>
 
