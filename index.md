@@ -10,6 +10,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Complete side chains of an atomic model](sidechains/sidechains.md).  June 10, 2021
  * [Select atoms in a map subregion](select_box/selectbox.md).  May 21, 2021
  * [Read an MRC file and write a subregion](mrc/mrc.md).  May 21, 2021
  * [Show ellipsoid for diffusion tensor depiction](ellipsoid/ellipsoid.md).  March 16, 2021
