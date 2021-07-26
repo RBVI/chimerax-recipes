@@ -1,10 +1,10 @@
 # Fit structure in map in many places and save results
 
-We add a command that use the fitmap command with the search option to randomly place an atomic structure in an map and optimize the position.  Then we save the resulting positions where correlation is greater than some value each in a separate PDB file.  Opening the Python code defines the new fitsearch command
+We add a command that uses the [fitmap](https://www.rbvi.ucsf.edu/chimerax/docs/user/commands/fitmap.html) command with the [search](https://www.rbvi.ucsf.edu/chimerax/docs/user/commands/fitmap.html#global) option to randomly place an atomic structure in an map many time and optimize the positions.  Then we save the resulting positions where correlation is greater than some value each in a separate PDB file.  Opening the Python code defines the new "fitsearch" command
 
     open fit_search.py
 
-Then open an atomic structure from the PDB and an map from the EMDB and compute and save fits.  I only want to fit chain A so I delete all other chains.  The resolution option is to simulate a map from the atomic structure used in fitting.  Only fits with correlation at least 0.9 are saved.
+For an example use open GroEL atomic structure [1GRL](https://www.rcsb.org/structure/1grl) from the PDB and an map [1080](https://www.ebi.ac.uk/emdb/entry/EMD-1080) from the EMDB and compute and save fits.  I only want to fit chain A so I delete all other chains.  The resolution option is to simulate a map from the atomic structure used in fitting.  Only fits with correlation at least 0.9 are saved.
 
     open 1grl
     delete ~/A
