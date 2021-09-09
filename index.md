@@ -10,6 +10,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Open multi-segment AlphaFold structures](big_alphafold/bigalpha.md).  September 8, 2021
  * [Save multiple fits of a structure in a map](fit_search/fit_search.md).  July 26, 2021
  * [Complete side chains of an atomic model](sidechains/sidechains.md).  June 10, 2021
  * [Select atoms in a map subregion](select_box/selectbox.md).  May 21, 2021
