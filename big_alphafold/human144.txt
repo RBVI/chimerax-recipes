@@ -1,0 +1,148 @@
+Human proteins with longest sequences from UniProt reference proteome Homo_sapiens_UP000005640.
+
+Length  Id   Name         Description
+-------------------------------------
+34350 Q8WZ42|TITIN_HUMAN Titin
+14507 Q8WXI7|MUC16_HUMAN Mucin-16
+8797 Q8NF91|SYNE1_HUMAN Nesprin-1
+8384 Q7Z5P9|MUC19_HUMAN Mucin-19
+7968 Q5VST9|OBSCN_HUMAN Obscurin
+7570 Q03001|DYST_HUMAN Dystonin
+7388 Q9UPN3|MACF1_HUMAN Microtubule-actin cross-linking factor 1, isoforms 1/2/3/5
+6907 Q5CZC0|FSIP2_HUMAN Fibrous sheath-interacting protein 2
+6885 Q8WXH0|SYNE2_HUMAN Nesprin-2
+6669 P20929|NEBU_HUMAN Nebulin
+6306 Q8WXG9|AGRV1_HUMAN Adhesion G-protein coupled receptor V1
+5890 Q09666|AHNK_HUMAN Neuroblast differentiation-associated protein AHNAK
+5795 Q8IVF2|AHNK2_HUMAN Protein AHNAK2
+5762 Q9HC84|MUC5B_HUMAN Mucin-5B
+5654 P98088|MUC5A_HUMAN Mucin-5AC
+5635 Q96RW7|HMCN1_HUMAN Hemicentin-1
+5596 Q9NU22|MDN1_HUMAN Midasin
+5537 O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D
+5478 Q9UKN1|MUC12_HUMAN Mucin-12
+5405 Q9Y6R7|FCGBP_HUMAN IgGFc-binding protein
+5207 Q63HN8|RN213_HUMAN E3 ubiquitin-protein ligase RNF213
+5207 P0DPF2|NBPFK_HUMAN Neuroblastoma breakpoint family member 20
+5202 O75445|USH2A_HUMAN Usherin
+5183 Q5T4S7|UBR4_HUMAN E3 ubiquitin-protein ligase UBR4
+5179 Q02817|MUC2_HUMAN Mucin-2
+5150 A2VEC9|SSPO_HUMAN SCO-spondin
+5142 Q9Y6V0|PCLO_HUMAN Protein piccolo
+5121 Q4G0P3|HYDIN_HUMAN Hydrocephalus-inducing protein homolog
+5088 P58107|EPIPL_HUMAN Epiplakin
+5059 Q8NDA2|HMCN2_HUMAN Hemicentin-2
+5058 Q86UQ4|ABCAD_HUMAN ATP-binding cassette sub-family A member 13
+5038 P21817|RYR1_HUMAN Ryanodine receptor 1
+5005 Q2LD37|K1109_HUMAN Transmembrane protein KIAA1109
+4981 Q6V0I7|FAT4_HUMAN Protocadherin Fat 4
+4967 Q92736|RYR2_HUMAN Ryanodine receptor 2
+4911 Q8NEZ4|KMT2C_HUMAN Histone-lysine N-methyltransferase 2C
+4870 Q15413|RYR3_HUMAN Ryanodine receptor 3
+4861 Q15751|HERC1_HUMAN Probable E3 ubiquitin-protein ligase HERC1
+4857 Q9NR09|BIRC6_HUMAN Baculoviral IAP repeat-containing protein 6
+4834 O95714|HERC2_HUMAN E3 ubiquitin-protein ligase HERC2
+4753 Q96M86|DNHD1_HUMAN Dynein heavy chain domain-containing protein 1
+4700 Q9P2P6|STAR9_HUMAN StAR-related lipid transfer protein 9
+4684 Q15149|PLEC_HUMAN Plectin
+4678 O75592|MYCB2_HUMAN E3 ubiquitin-protein ligase MYCBP2
+4655 P98164|LRP2_HUMAN Low-density lipoprotein receptor-related protein 2
+4646 Q14204|DYHC1_HUMAN Cytoplasmic dynein 1 heavy chain 1
+4624 Q8TE73|DYH5_HUMAN Dynein axonemal heavy chain 5
+4599 Q9NZR2|LRP1B_HUMAN Low-density lipoprotein receptor-related protein 1B
+4588 Q14517|FAT1_HUMAN Protocadherin Fat 1
+4579 Q9NZJ4|SACS_HUMAN Sacsin
+4563 P04114|APOB_HUMAN Apolipoprotein B-100
+4557 Q8TDW7|FAT3_HUMAN Protocadherin Fat 3
+4548 P08519|APOA_HUMAN Apolipoprotein(a)
+4544 Q07954|LRP1_HUMAN Prolow-density lipoprotein receptor-related protein 1
+4516 Q96DT5|DYH11_HUMAN Dynein axonemal heavy chain 11
+4493 Q685J3|MUC17_HUMAN Mucin-17
+4490 Q96JB1|DYH8_HUMAN Dynein axonemal heavy chain 8
+4486 Q9NYC9|DYH9_HUMAN Dynein axonemal heavy chain 9
+4471 Q8IVF4|DYH10_HUMAN Dynein axonemal heavy chain 10
+4462 Q9UFH2|DYH17_HUMAN Dynein axonemal heavy chain 17
+4427 Q9P225|DYH2_HUMAN Dynein axonemal heavy chain 2
+4391 P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein
+4388 Q5THJ4|VP13D_HUMAN Vacuolar protein sorting-associated protein 13D
+4377 Q12955|ANK3_HUMAN Ankyrin-3
+4374 Q7Z6Z7|HUWE1_HUMAN E3 ubiquitin-protein ligase HUWE1
+4349 Q9NYQ8|FAT2_HUMAN Protocadherin Fat 2
+4307 Q8NCM8|DYHC2_HUMAN Cytoplasmic dynein 2 heavy chain 1
+4303 P98161|PKD1_HUMAN Polycystin-1
+4265 Q9P2D7|DYH1_HUMAN Dynein axonemal heavy chain 1
+4244 P22105|TENX_HUMAN Tenascin-X
+4243 Q86WI1|PKHL1_HUMAN Fibrocystin-L
+4168 Q8TCU4|ALMS1_HUMAN Alstrom syndrome protein 1
+4158 Q9C0G6|DYH6_HUMAN Dynein axonemal heavy chain 6
+4128 P78527|PRKDC_HUMAN DNA-dependent protein kinase catalytic subunit
+4116 Q8TD57|DYH3_HUMAN Dynein axonemal heavy chain 3
+4074 P08F94|PKHD1_HUMAN Fibrocystin
+4069 Q8N3K9|CMYA5_HUMAN Cardiomyopathy-associated protein 5
+4061 P20930|FILA_HUMAN Filaggrin
+4024 Q8WXX0|DYH7_HUMAN Dynein axonemal heavy chain 7
+4022 Q7Z7G8|VP13B_HUMAN Vacuolar protein sorting-associated protein 13B
+4008 Q86XX4|FRAS1_HUMAN Extracellular matrix organizing protein FRAS1
+3996 Q9Y4D8|HECD4_HUMAN Probable E3 ubiquitin-protein ligase HECTD4
+3969 Q03164|KMT2A_HUMAN Histone-lysine N-methyltransferase 2A
+3957 Q01484|ANK2_HUMAN Ankyrin-2
+3926 Q9UPA5|BSN_HUMAN Protein bassoon
+3925 Q96JG9|ZN469_HUMAN Zinc finger protein 469
+3907 Q99996|AKAP9_HUMAN A-kinase anchor protein 9
+3859 Q9Y4A5|TRRAP_HUMAN Transformation/transcription domain-associated protein
+3843 A0A087WUL8|NBPFJ_HUMAN Neuroblastoma breakpoint family member 19
+3801 Q99698|LYST_HUMAN Lysosomal-trafficking regulator
+3753 Q709C8|VP13C_HUMAN Vacuolar protein sorting-associated protein 13C
+3707 Q7Z407|CSMD3_HUMAN CUB and sushi domain-containing protein 3
+3703 Q15911|ZFHX3_HUMAN Zinc finger homeobox protein 3
+3695 O15230|LAMA5_HUMAN Laminin subunit alpha-5
+3685 P11532|DMD_HUMAN Dystrophin
+3674 Q9NRC6|SPTN5_HUMAN Spectrin beta chain, non-erythrocytic 5
+3664 Q96T58|MINT_HUMAN Msx2-interacting protein
+3661 Q96Q15|SMG1_HUMAN Serine/threonine-protein kinase SMG1
+3623 O60494|CUBN_HUMAN Cubilin
+3571 Q4LDE5|SVEP1_HUMAN Sushi, von Willebrand factor type A, EGF and pentraxin domain-containing protein 1
+3567 Q86UP3|ZFHX4_HUMAN Zinc finger homeobox protein 4
+3564 Q96PZ7|CSMD1_HUMAN CUB and sushi domain-containing protein 1
+3546 Q70CQ2|UBP34_HUMAN Ubiquitin carboxyl-terminal hydrolase 34
+3530 Q9UKN7|MYO15_HUMAN Unconventional myosin-XV
+3526 Q8IZQ1|WDFY3_HUMAN WD repeat and FYVE domain-containing protein 3
+3507 Q0VDD8|DYH14_HUMAN Dynein axonemal heavy chain 14
+3487 Q7Z408|CSMD2_HUMAN CUB and sushi domain-containing protein 2
+3477 Q8IZT6|ASPM_HUMAN Abnormal spindle-like microcephaly-associated protein
+3460 P78509|RELN_HUMAN Reelin
+3433 P46939|UTRN_HUMAN Utrophin
+3432 Q5T011|SZT2_HUMAN KICSTOR complex protein SZT2
+3418 P51587|BRCA2_HUMAN Breast cancer type 2 susceptibility protein
+3396 P13611|CSPG2_HUMAN Versican core protein
+3374 A4UGR9|XIRP2_HUMAN Xin actin-binding repeat-containing protein 2
+3371 Q6V1P9|PCD23_HUMAN Protocadherin-23
+3354 Q9H251|CAD23_HUMAN Cadherin-23
+3336 O95613|PCNT_HUMAN Pericentrin
+3333 Q16787|LAMA3_HUMAN Laminin subunit alpha-3
+3323 Q02505|MUC3A_HUMAN Mucin-3A
+3312 Q9NYQ7|CELR3_HUMAN Cadherin EGF LAG seven-pass G-type receptor 3
+3298 Q96JQ0|PCD16_HUMAN Protocadherin-16
+3267 Q15772|SPEG_HUMAN Striated muscle preferentially expressed protein kinase
+3266 M0QZD8|M0QZD8_HUMAN Uncharacterized protein
+3259 Q14789|GOGB1_HUMAN Golgin subfamily B member 1
+3258 Q8N2C7|UNC80_HUMAN Protein unc-80 homolog
+3256 P46013|KI67_HUMAN Proliferation marker protein Ki-67
+3230 Q6ZRS2|SRCAP_HUMAN Helicase SRCAP
+3224 P49792|RBP2_HUMAN E3 SUMO-protein ligase RanBP2
+3197 Q9H799|CPLN1_HUMAN Ciliogenesis and planar polarity effector 1
+3187 Q6ZTR5|CFA47_HUMAN Cilia- and flagella-associated protein 47
+3184 Q6ZS81|WDFY4_HUMAN WD repeat- and FYVE domain-containing protein 4
+3177 P12111|CO6A3_HUMAN Collagen alpha-3(VI) chain
+3174 Q96RL7|VP13A_HUMAN Vacuolar protein sorting-associated protein 13A
+3169 Q5SZK8|FREM2_HUMAN FRAS1-related extracellular matrix protein 2
+3165 Q5T1H1|EYS_HUMAN Protein eyes shut homolog
+3159 Q96L91|EP400_HUMAN E1A-binding protein p400
+3142 P42858|HD_HUMAN Huntingtin
+3130 O60673|REV3L_HUMAN DNA polymerase zeta catalytic subunit
+3122 P24043|LAMA2_HUMAN Laminin subunit alpha-2
+3117 Q5VT06|CE350_HUMAN Centrosome-associated protein 350
+3114 P49454|CENPF_HUMAN Centromere protein F
+3097 O75962|TRIO_HUMAN Triple functional domain protein
+3096 Q96N23|CFA54_HUMAN Cilia- and flagella-associated protein 54
+3092 Q6ZR08|DYH12_HUMAN Dynein axonemal heavy chain 12
