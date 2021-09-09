@@ -4,7 +4,7 @@ AlphaFold models larger than 1400 amino acids are computed in multiple segments 
 
     open bigalpha.py
 
-You will need to [download](https://alphafold.ebi.ac.uk/download) the human AlphaFold database predicted structures (5 Gbytes) from EBI. Then open the segments for protein titin (UniProt Q8WZ42) using ChimeraX command
+You will need to [download](https://alphafold.ebi.ac.uk/download) the human AlphaFold database predicted structures (5 Gbytes) from EBI. Then open the segments for protein titin (UniProt Q8WZ42, 34350 amino acids) using ChimeraX command
 
     bigalpha Q8WZ42 directory /directory/of/alphafold/models
 
