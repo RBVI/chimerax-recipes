@@ -1,14 +1,14 @@
 # Open multi-file AlphaFold models
 
-AlphaFold models larger than 1400 amino acids are computed in multiple segments each 1400 amino acids long spaced every 200 amino acids.  This is the longest sequences the method can handle due to GPU memory limits.  Here is Python code to load the segments from separate files and align them.  Opening the Python defines the bigalpha command
+AlphaFold models larger than 1400 amino acids are computed in multiple segments each 1400 amino acids long spaced every 200 amino acids.  This is the longest sequence length the method can handle due to GPU memory limits.  Here is Python code to load the segments from separate files and align them.  Opening the Python defines the bigalpha command
 
     open bigalpha.py
 
-You will need to [download](https://alphafold.ebi.ac.uk/download) the human AlphaFold database models (5 Gbytes) from EBI. Then open the segments for protein titin (UniProt Q8WZ42) using ChimeraX command
+You will need to [download](https://alphafold.ebi.ac.uk/download) the human AlphaFold database predicted structures (5 Gbytes) from EBI. Then open the segments for protein titin (UniProt Q8WZ42) using ChimeraX command
 
     bigalpha Q8WZ42 directory /directory/of/alphafold/models
 
-Segments every 1200 amino acids are loaded with the last 5 residue CA atoms of the preceding segment used to align the next segment (which overlaps by 200 residues) and the overlap residues in the added segment are deleted.
+Segments every 1200 amino acids are loaded each segment aligned to the last 5 residues (C-alpha atoms) of the preceding segment and the 200 overlap residues in the added segment are deleted.
 
 <a href="titin.png"><img src="titin.jpg"></a>
 
