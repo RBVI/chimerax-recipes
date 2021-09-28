@@ -4,7 +4,7 @@ Here is Python code defining a command "closest" that finds the closest pair of 
 
     open closest.py
 
-then use the command on the atomic model.
+then use the command on two sets of atoms
 
     open 7LUP
     closest /A to /B show true
