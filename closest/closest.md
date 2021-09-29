@@ -29,20 +29,27 @@ Here is the [closest.py](closest.py) code:
         xyz1, xyz2 = atoms.scene_coords, to_atoms.scene_coords
         from chimerax.geometry import find_closest_points
         i1, i2, nearest1 = find_closest_points(xyz1, xyz2, max_dist)
-        v = xyz2[nearest1] - xyz1[i1]
-        d2 = (v*v).sum(axis=1)
-        c = d2.argmin()
-        c1, c2 = i1[c], nearest1[c]
-        a1, a2 = atoms[c1], to_atoms[c2]
-        from math import sqrt
-        d = sqrt(d2[c])
-        report_closest(session, d, a1, a2, show)
+        if len(nearest1) == 0:
+            d = a1 = a2 = None
+        else:
+            v = xyz2[nearest1] - xyz1[i1]
+            d2 = (v*v).sum(axis=1)
+            c = d2.argmin()
+            c1, c2 = i1[c], nearest1[c]
+            a1, a2 = atoms[c1], to_atoms[c2]
+            from math import sqrt
+            d = sqrt(d2[c])
+        report_closest(session, d, a1, a2, show, max_dist)
         return d, a1, a2
 
-    def report_closest(session, d, a1, a2, show):
-        session.logger.status('Minimum distance %.2f between %s and %s'
-                              % (d, str(a1), str(a2)), log = True)
-        if show:
+    def report_closest(session, d, a1, a2, show, max_dist):
+        if d is None:
+            msg = 'No atom pairs within distance %.3g of each other' % max_dist
+        else:
+            msg = 'Minimum distance %.2f between %s and %s' % (d, str(a1), str(a2))
+        session.logger.status(msg, log = True)
+
+        if show and a1 and a2:
             from chimerax.core.commands import run
             run(session, 'distance %s %s' % (a1.atomspec, a2.atomspec))
             run(session, 'view %s %s' % (a1.atomspec, a2.atomspec))
@@ -56,7 +63,7 @@ Here is the [closest.py](closest.py) code:
                 d = distance(a1.scene_coord, a2.scene_coord)
                 if (dmin is None or d < dmin) and d <= max_dist:
                     dmin, amin1, amin2 = d, a1, a2
-        report_closest(session, dmin, amin1, amin2, show)
+        report_closest(session, dmin, amin1, amin2, show, max_dist)
         return dmin, amin1, amin2
 
     def register_command(session):
