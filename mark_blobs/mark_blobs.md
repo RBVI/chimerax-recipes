@@ -41,7 +41,7 @@ def surface_blob_centers(surface):
     return centers
 </pre>
 
-And here is some Python to define a command "markcenters" that runs this.
+And here is some Python to define a command "markblobs" that runs this.
 
 <pre>
 def markblobs(session, surface, radius = 0.5, color = (255,255,0,255)):
