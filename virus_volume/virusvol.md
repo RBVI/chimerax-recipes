@@ -18,6 +18,6 @@ Here is what this looks like after clipping to reveal the interior:
 
 <img src="1lp3_interior.png" alt="Adeno-associated virus interior" width=800/>
 
-This uses the ChimeraX [sym](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/sym.html) command to make the capsid from the asymmetric unit, the [molmap](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/molmap.html) command to make the density map from the atomic model, the [surface splitbycolor](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/surface.html#splitbycolor) command to separate the inside from outside surface of the capsid shell, and the [measure volume](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/measure.html#volume) command to measure enclosed volume.
+This uses the ChimeraX [sym](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/sym.html) command to make the capsid from the asymmetric unit, the [molmap](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/molmap.html) command to make the density map from the atomic model, the [surface splitbycolor](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/surface.html#splitbycolor) command to separate the inside from outside surface of the capsid shell, and the [measure volume](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/measure.html#volume) command to measure enclosed volume.  I clipped the view in half to make the image using the [clip](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/clip.html) command.
 
 Tom Goddard, November 3, 2021
