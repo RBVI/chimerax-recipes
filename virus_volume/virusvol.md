@@ -2,7 +2,7 @@
 
 Here is a way to measure the volume (in cubic Angstroms) enclosd by a virus capsid starting from an atomic model.  We will try it on adeno-associated virus PDB [1LP3](https://www.rcsb.org/structure/1LP3).  Heather Noriega [asked](https://plato.cgl.ucsf.edu/pipermail/chimerax-users/2021-November/002866.html) how to do this on the ChimeraX mailing list.
 
-The idea is to make a low resolution (12 Angstrom) density map from the atomic model so there are not holes in the capsid, set the map threshold so there are no holes connecting the inside and outside, then color the outside layer with the "pick blob" mouse mode, then split the surface by color (producing inside and outside surfaces), then measure the volume enclosed by the inside surface.
+The idea is to make a low resolution (12 Angstrom) density map from the atomic model so there are not holes in the capsid, set the map threshold so there are no holes connecting the inside and outside, then color the outside layer with the [pick blob](https://www.cgl.ucsf.edu/chimerax/docs/user/tools/measureblobs.html) mouse mode, then split the surface by color (producing separate inside and outside surfaces), then measure the volume enclosed by the inside surface.
 
     open 1LP3
     sym #1 assembly 1 copies true
