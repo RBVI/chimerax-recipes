@@ -7,10 +7,10 @@ The idea is to make a low resolution (12 Angstrom) density map from the atomic m
     open 1LP3
     sym #1 assembly 1 copies true
     molmap #2 12
-    volume #3 level 0.676
+    volume #3 level 0.0676
     # Choose "blob" mouse mode under the "Right Mouse" toolbar tab and right click (command key + trackpad on Mac) the volume surface to color it.
     surface splitbycolor #3.1
-    hide #4.1 model
+    hide #3,4.1 model
     measure volume #4.2
     -> 2.6 million cubic Angstroms.
 
