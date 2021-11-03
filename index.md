@@ -2,6 +2,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Command Examples
 
+ * [Measure a virus interior volume](virus_volume/virusvol.md).  November 3, 2021
  * [Record a movie flipping through electron microscopy planes](planes/planes.md).  April 22, 2021
  * [Depict monomer rotation in a dimer](rotation_slabs/slabs.md).  December 18, 2020
  * [Make a helical filament atomic model](filament/filament.md).  September 10, 2020
