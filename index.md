@@ -11,6 +11,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Label secondary structure elements](label_ss/label_md.md).  Novenmber 8, 2021
  * [Find closest pair of atoms](closest/closest.md).  September 28, 2021
  * [Open multi-segment AlphaFold structures](big_alphafold/bigalpha.md).  September 8, 2021
  * [Save multiple fits of a structure in a map](fit_search/fit_search.md).  July 26, 2021
