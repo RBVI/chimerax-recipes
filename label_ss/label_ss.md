@@ -28,7 +28,6 @@ Here is the [label_ss.py](label_ss.py) code:
 
         ss_run = []
         for r in s.residues:
-            print("r, ss_type, ss_id, len(ss_run):", r, r.ss_type, r.ss_id, len(ss_run))
             if r.ss_type == r.SS_COIL:
                 key = None
             else:
