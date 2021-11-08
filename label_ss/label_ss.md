@@ -9,6 +9,7 @@ You can adjust the size of the labels by editing the first line of the file, or 
     label height 4
     
 Here is what labeling 1zik looks like
+
 <img src="label_ss.png">
 
 Here is the [label_ss.py](label_ss.py) code:
