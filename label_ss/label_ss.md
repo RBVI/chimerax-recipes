@@ -38,7 +38,7 @@ Here is the [label_ss.py](label_ss.py) code:
                 continue
             if cur_key is not None:
                 mid_res = ss_run[int(len(ss_run)/2)]
-                if cur_key[0] == r.SS_HELIX:
+                if cur_key[1] == r.SS_HELIX:
                     helix_label_targets.append(mid_res)
                 else:
                     strand_label_targets.append(mid_res)
@@ -48,7 +48,7 @@ Here is the [label_ss.py](label_ss.py) code:
             cur_key = key
         if cur_key is not None:
             mid_res = ss_run[int(len(ss_run)/2)]
-            if cur_key[0] == r.SS_HELIX:
+            if cur_key[1] == r.SS_HELIX:
                 helix_label_targets.append(mid_res)
             else:
                 strand_label_targets.append(mid_res)

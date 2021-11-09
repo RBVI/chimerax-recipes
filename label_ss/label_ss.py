@@ -18,7 +18,7 @@ for s in all_atomic_structures(session):
 			continue
 		if cur_key is not None:
 			mid_res = ss_run[int(len(ss_run)/2)]
-			if cur_key[0] == r.SS_HELIX:
+			if cur_key[1] == r.SS_HELIX:
 				helix_label_targets.append(mid_res)
 			else:
 				strand_label_targets.append(mid_res)
@@ -28,7 +28,7 @@ for s in all_atomic_structures(session):
 		cur_key = key
 	if cur_key is not None:
 		mid_res = ss_run[int(len(ss_run)/2)]
-		if cur_key[0] == r.SS_HELIX:
+		if cur_key[1] == r.SS_HELIX:
 			helix_label_targets.append(mid_res)
 		else:
 			strand_label_targets.append(mid_res)
