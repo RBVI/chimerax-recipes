@@ -4,6 +4,7 @@ We add a command to compute a map from a series of maps that gives the variance 
 
 As an example, here we color a cryoEM polyamine transporter where two observed conformations differ, EMDB [24220](https://www.ebi.ac.uk/emdb/entry/EMD-24220) and [24221](https://www.ebi.ac.uk/emdb/entry/EMD-24221).
 
+    open ~/Desktop/variance.py
     open 24220 24221 from emdb
     volume variance #1,2
     color sample #2 map #3 palette 0,white:0.02,red
