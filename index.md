@@ -11,6 +11,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Make ViewDockX table information available as model attributes](vdx_attrs/vdx_attrs.md).  December 17, 2021
  * [Compute variance of a series of maps](variance/variance.md).  November 24, 2021
  * [Label secondary structure elements](label_ss/label_ss.md).  November 8, 2021
  * [Find closest pair of atoms](closest/closest.md).  September 28, 2021
