@@ -4,7 +4,7 @@ Here is Python code that converts the column information from the ViewDockX tabl
 
     open vdx_attrs.py
 
-Here's an example docking output, with the ligands color based on their generated vdx_Energy_score attribute
+Here's an example docking output, with the ligands colored based on their generated vdx_Energy_score attribute
 
 <img src="vdx_attrs.png">
 
