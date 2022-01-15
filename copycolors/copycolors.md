@@ -1,6 +1,6 @@
 # Copy chain colors
 
-Here is Python code defining a command "copycolors" that copies ribbon colors from one set of chains to another set of chains with matching chain ids.  Only the target ribbons are colored, not the atoms.  Jacob Andersen [https://plato.cgl.ucsf.edu/pipermail/chimerax-users/2022-January/003089.html](asked) how to do this.  Open the Python code to define the command
+Here is Python code defining a command "copycolors" that copies ribbon colors from one set of chains to another set of chains with matching chain ids.  Only the target ribbons are colored, not the atoms.  Jacob Andersen [asked](https://plato.cgl.ucsf.edu/pipermail/chimerax-users/2022-January/003089.html) how to do this.  Open the Python code to define the command
 
     open copycolors.py
 
