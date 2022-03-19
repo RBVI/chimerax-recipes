@@ -1,0 +1,36 @@
+data_hematite
+# 
+_cell.entry_id           hematite
+_cell.length_a           5.038
+_cell.length_b           5.038
+_cell.length_c           13.772
+_cell.angle_alpha        90.00 
+_cell.angle_beta         90.00 
+_cell.angle_gamma        120.0 
+_cell.Z_PDB              36 
+_cell.pdbx_unique_axis   ? 
+# 
+_symmetry.entry_id                         hematite
+_symmetry.space_group_name_H-M             'R -3 C' 
+_symmetry.pdbx_full_space_group_name_H-M   ? 
+_symmetry.cell_setting                     ? 
+_symmetry.Int_Tables_number                ? 
+# 
+loop_
+_atom_site.group_PDB 
+_atom_site.id 
+_atom_site.type_symbol 
+_atom_site.label_atom_id 
+_atom_site.label_alt_id 
+_atom_site.label_comp_id 
+_atom_site.label_asym_id 
+_atom_site.label_entity_id 
+_atom_site.label_seq_id 
+_atom_site.pdbx_PDB_ins_code 
+_atom_site.Cartn_x 
+_atom_site.Cartn_y 
+_atom_site.Cartn_z 
+_atom_site.occupancy 
+HETATM   1  Fe Fe  . UNL A 1 1  ? 0.0000 0.000  4.8932 1.00
+HETATM   2   O O   . UNL A 1 1  ? 1.5411 0.000  3.4438 1.00
+# 
