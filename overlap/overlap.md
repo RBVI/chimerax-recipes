@@ -14,7 +14,7 @@ then use the command to select and remove the duplicate atoms from the crystal w
 
 <img src="hematite_crystal.png" height="300">
 
-This doesn't create the correct bonds for the crystal.  We can add the bonds with the [connect command](../connect/connect.md).
+This doesn't create the correct bonds for the crystal.  We can add the bonds with the [connect command](../connect/connect.md) and save the result [hematite_crystal.mol2](hematite_crystal.mol2).
 
     ~bond #3
     connect #3
