@@ -1,0 +1,106 @@
+#\#CIF_1.1
+# mmCIF
+data_fhyd6.pdb
+#
+_audit_conform.dict_name mmcif_pdbx.dic
+_audit_conform.dict_version 4.007
+_audit_conform.dict_location http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic
+#
+_audit_syntax.case_sensitive_flag Y
+_audit_syntax.fixed_width "atom_site atom_site_anisotrop"
+#
+_citation.id chimerax
+_citation.title 
+;UCSF ChimeraX: Structure visualization for researchers, educators, and developers
+;
+
+_citation.journal_abbrev "Protein Sci."
+_citation.journal_volume 30
+_citation.page_first 70
+_citation.page_last 82
+_citation.journal_issue 1
+_citation.year 2021
+_citation.pdbx_database_id_PubMed 28710774
+_citation.pdbx_database_id_DOI 10.1002/pro.3943
+#
+loop_
+_citation_author.citation_id
+_citation_author.name
+_citation_author.ordinal
+chimerax "Pettersen EF" 1 
+chimerax "Goddard TD"   2 
+chimerax "Huang CC"     3 
+chimerax "Meng EC"      4 
+chimerax "Couch GS"     5 
+chimerax "Croll TI"     6 
+chimerax "Morris JH"    7 
+chimerax "Ferrin TE"    8 
+#
+_software.name "UCSF ChimeraX"
+_software.version 1.4/v9
+_software.location https://www.rbvi.ucsf.edu/chimerax/
+_software.classification "model building"
+_software.os macOS
+_software.type package
+_software.citation_id chimerax
+_software.pdbx_ordinal 1
+# 
+_cell.entry_id           fhyd6
+_cell.length_a           5.928
+_cell.length_b           5.928
+_cell.length_c           9.126
+_cell.angle_alpha        90.00 
+_cell.angle_beta         90.00 
+_cell.angle_gamma        120.00 
+_cell.Z_PDB              12 
+_cell.pdbx_unique_axis   ? 
+# 
+_symmetry.entry_id                         fhyd6
+_symmetry.space_group_name_H-M             'P 63 M C' 
+_symmetry.pdbx_full_space_group_name_H-M   ? 
+_symmetry.cell_setting                     ? 
+_symmetry.Int_Tables_number                186 
+# 
+#
+_chem_comp.id ***
+_chem_comp.type non-polymer
+#
+_entity.id 1
+_entity.type non-polymer
+_entity.pdbx_description ?
+#
+_struct_asym.id " "
+_struct_asym.entity_id 1
+#
+loop_
+_atom_type.symbol
+O  
+Fe 
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.auth_asym_id
+_atom_site.auth_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_PDB_model_num
+HETATM 1 Fe Fe1 . UNL A 1 . -1.457 4.263  5.809 A 1 ? 1.00 0.00 1 
+HETATM 2 Fe Fe2 . UNL A 1 . -0.000 3.423  3.084 A 1 ? 0.97 0.00 1 
+HETATM 3 Fe Fe3 . UNL A 1 . -0.000 3.423  8.756 A 1 ? 0.96 0.00 1 
+HETATM 4 O  O1  . UNL A 1 . -0.000 -0.000 0.407 A 1 ? 1.00 0.00 1 
+HETATM 5 O  O2  . UNL A 1 . -0.000 3.423  6.967 A 1 ? 1.00 0.00 1 
+HETATM 6 O  O3  . UNL A 1 . -1.455 4.262  2.251 A 1 ? 1.00 0.00 1 
+HETATM 7 O  O4  . UNL A 1 . 1.684  2.450  8.940 A 1 ? 1.00 0.00 1 
+#
