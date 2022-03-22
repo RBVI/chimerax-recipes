@@ -15,7 +15,7 @@ The 40 ferritin proteins, 60 encapsulin proteins, and 40 linker peptides are in 
 
 [Animation](encapsulin_link.mp4)
 
-<video width="320" height="240" controls>
+<video width="640" height="640" controls>
   <source src="encapsulin_link.mp4" type="video/mp4">
   <img src="encapsulin_link.png" height="300">
 </video>
