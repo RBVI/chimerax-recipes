@@ -37,8 +37,8 @@ Here is the [pymol_view.py](pymol_view.py) code:
     def pymol_view(session, parameters):
         view = [float(p) for p in parameters.split(',')]
         r0,r1,r2 = view[:3], view[3:6], view[6:9]   # rotate model to camera
-        cam_origin = view[9:12]                        # rotation origin in camera coords
-        model_origin = view[12:15]                        # rotation origin in model coords.
+        cam_origin = view[9:12]                     # rotation origin in camera coords
+        model_origin = view[12:15]                  # rotation origin in model coords.
         near_clip, far_clip = view[15:17]
         ortho_flag = view[17]
         from chimerax.geometry import Place, translation
