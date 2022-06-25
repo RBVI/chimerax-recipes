@@ -1,6 +1,6 @@
 # Show PyMol view direction
 
-Here is Python code defining a command "pymolview" that sets the camera view direction to match a view in PyMol using the parameters from the PyMol [https://pymolwiki.org/index.php/Get_View](cmd.get_view()) function. Open the Python code to define the command
+Here is Python code defining a command "pymolview" that sets the camera view direction to match a view in PyMol using the parameters from the PyMol [cmd.get_view()](https://pymolwiki.org/index.php/Get_View) function. Open the Python code to define the command
 
     open pymol_view.py
 
