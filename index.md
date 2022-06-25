@@ -11,6 +11,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Set camera view to match PyMol](pymol_view/pymol_view.md).  June 24, 2022
  * [Place linkers with molecular dynamics](link/link.md).  March 18, 2022
  * [Add bonds between close atoms](connect/connect.md).  March 16, 2022
  * [Select overlapped atoms](overlap/overlap.md).  March 16, 2022
