@@ -13,9 +13,11 @@ then use the command to set the camera view using the 18 parameters reported by 
 <tr>
 <td><img src="pymol_view.png" height="300"></td>
 <td><img src="chimerax_view.png" height="300"></td>
+</tr>
 <tr>
 <td align=center>PyMol</td>
 <td align=center>ChimeraX</td>
+</tr>
 </table>
 
 This command does not set the clip planes or orthographic projection although those could be easily added.
