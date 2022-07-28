@@ -14,7 +14,7 @@ Here are commands to color a surface [example_surface.stl](example_surface.stl) 
 
 <img src="example_surface.png" width="500">
 
-Here is the Python code
+Here is the Python code [surface_color.py](surface_color.py)
 
 <pre>
     def surfcolor(session, surface, values_file, palette = None):
