@@ -6,7 +6,7 @@ Opening the Python code [surface_color.py](surface_color.py) defines the surfcol
 
     open surface_color.py
 
-Then to color a surface [example_surface.stl](example_surface.stl) using [vertex_values.txt](vertex_values.txt).  The vertex value in this example is the polar angle from -180 to 180 degrees.
+Here are commands to color a surface [example_surface.stl](example_surface.stl) using [vertex_values.txt](vertex_values.txt).  The vertex value in this example is the polar angle from -180 to 180 degrees.
 
     cd ~/Downloads
     open example_surface.stl
