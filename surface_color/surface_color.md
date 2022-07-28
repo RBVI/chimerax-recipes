@@ -1,12 +1,12 @@
 # Color each vertex of a surface using a value from a file
 
-Here is some ChimeraX Python code that colors a surface using a numeric value for each vertex read from a file.  Each line of the file has one floating point number with as many lines as there are surface vertices.  Such a file would be generated with the surface by analysis code.
+Here is some ChimeraX Python code that colors a surface using a numeric value for each vertex read from a file.  Each line of the file has one floating point number with as many lines as there are surface vertices.  These vertex values would come from custom surface analysis code.
 
 Opening the Python code [surface_color.py](surface_color.py) defines the surfcolor command.
 
     open surface_color.py
 
-Then to color a surface [example_surface.stl](example_surface.stl) using [vertex_values.txt](vertex_values.txt)
+Then to color a surface [example_surface.stl](example_surface.stl) using [vertex_values.txt](vertex_values.txt).  The vertex value in this example is the polar angle from -180 to 180 degrees.
 
     cd ~/Downloads
     open example_surface.stl
