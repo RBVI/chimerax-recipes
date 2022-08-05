@@ -7,8 +7,10 @@ Here is a Python routine to find residues with specified residue numbers in spec
 
 This can be relatively slow for parsing thousands of residues because the command parser in ChimeraX 1.4 is rather slow.  So below is equivalent Python code that will run faster.
 
+    from chimerax.atomic import all_structures
+    structures = all_structures(session)
     chain_res = [('A', (105,107)), ('B', (228,301))]
-    residues = find_residues(structure.residues, chain_res)
+    residues = find_residues(structures[0].residues, chain_res)
 
 Here is the [residues.py](residues.py) code:
 
