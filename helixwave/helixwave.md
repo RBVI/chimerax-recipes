@@ -29,15 +29,15 @@ First I align a single 6-protein ring of the extended and contracted helices, ce
 
 To record a movie
 
-    movie record ; helixwave #3 ; wait 300 ; movie encode helixwave.mp4
+    movie record ; helixwave #3 move #1 ; wait 300 ; movie encode helixwave.mp4
 
 or using a smaller contraction zone (0.2 times full length)
 
-    movie record ; helixwave #3 wavelength 0.2 ; wait 300 ; movie encode helixwave_0.2.mp4
+    movie record ; helixwave #3 wavelength 0.2 move #1 ; wait 300 ; movie encode helixwave_0.2.mp4
 
 or uniform contraction zone
 
-    movie record ; helixwave #3 uniform true ; wait 300 ; movie encode helixwave_uniform.mp4
+    movie record ; helixwave #3 uniform true move #1 ; wait 300 ; movie encode helixwave_uniform.mp4
 
 Here is a [movie](hwave.mp4) of the 0.2 wavelength, 0.5 wavelength and uniform side by side.
 
