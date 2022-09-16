@@ -102,8 +102,10 @@ Here is the Python code [helixwave.py](helixwave.py)
             layer_model.active_coordset_id = coordset_ids[int(f * (len(coordset_ids)-1))]
 
         # Keep the helix tip fixed
-        height = len(layer_models)*rise_start
-        r = layer_models[-1].position.inverse() * translation((0,0,height))
+        nlayer = len(layer_models)
+        height, twist = (nlayer-1)*rise_start, (nlayer-1)*twist_start
+        start_tip_position = translation((0,0,height)) *  rotation((0,0,1), twist)
+        r = start_tip_position * layer_models[-1].position.inverse()
         for m in layer_models:
             m.position = r * m.position
 
