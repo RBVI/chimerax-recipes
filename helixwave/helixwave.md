@@ -39,7 +39,7 @@ or uniform contraction zone
 
     movie record ; helixwave #3 uniform true move #1 ; wait 300 ; movie encode helixwave_uniform.mp4
 
-Here is a [movie](hwave.mp4) of the 0.2 wavelength, 0.5 wavelength and uniform side by side.
+Here is a [movie](hwave.mp4) of the 0.2 wavelength, 0.5 wavelength and uniform motion side by side.
 This can be used in an [animation including the phage capsid and baseplate](https://www.rbvi.ucsf.edu/chimerax/data/phage-T4-sep2022/phageT4.html).
 
 <a href="hwave.mp4"><img src="hwave.png" width="600"></a>
