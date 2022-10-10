@@ -151,7 +151,7 @@ Here is the Python code [helixwave.py](helixwave.py)
                                 ('rise_start', FloatArg),
                                 ('rise_end', FloatArg),
                                 ('twist_start', FloatArg),
-                                ('twist_start', FloatArg),
+                                ('twist_end', FloatArg),
                                 ('move_models', AtomicStructuresArg),
                                 ],
                        synopsis='Morph a twist and contract wave along a helical filament')
