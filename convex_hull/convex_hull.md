@@ -6,9 +6,13 @@ Here is Python code defining a ChimeraX command to show the convex hull of atoms
      open 6wm2
      convexhull #1 sharp true eachChain true
 
-It gives the molecule a mineral appearance and uses very few triangles (5000 for the convex hull in this example, versus 9 million for a solvent excluded molecular surface).  The option "sharp true" makes the edges between the triangular facets sharp.  The "eachChain true" option make a convex hull surface for each chain instead of a single convex hull surface for all the atoms.
+It gives the human V-ATPase assembly a mineral appearance and uses very few triangles (5000 for the convex hull in this example, versus 9 million for a solvent excluded molecular surface).  The option "sharp true" makes the edges between the triangular facets sharp.  The "eachChain true" option make a convex hull surface for each chain instead of a single convex hull surface for all the atoms.
 
 <a href="6wm2.png"><img src="6wm2.jpg" width="600"></a>
+
+Another example showing photosystem I, PDB 6kmx.
+
+<a href="convex_6kmx.png"><img src="convex_6kmx.jpg" width="600"></a>
 
 Here is the Python code [convex_hull.py](convex_hull.py)
 
