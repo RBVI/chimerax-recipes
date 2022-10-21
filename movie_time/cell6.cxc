@@ -1,0 +1,5 @@
+movie record
+perframe "2dlabel change timestamp text $1" frames 30 range 0,6 format %.1f
+vseries play #1
+wait 30
+movie encode cell6.mp4 framerate 5 quality high
