@@ -1,6 +1,6 @@
 # Colored axes, coverslip and timestamp
 
-Shayne Quinn [asked](https://www.rbvi.ucsf.edu/pipermail/chimerax-users/2022-October/004467.html) about axis colored outline boxes for lightsheet microscopy data, showing a cover slip as a gray rectangle, and showing a time stamp, on the ChimeraX mailing list.  Here is Python code defining 3 ChimeraX commands to show those things.
+Shayne Quinn [asked](https://www.rbvi.ucsf.edu/pipermail/chimerax-users/2022-October/004467.html) about axis colored outline boxes for lightsheet microscopy data, showing a cover slip as a gray rectangle, and showing a time stamp, on the ChimeraX mailing list.  Below is Python code defining 3 ChimeraX commands to show those things.  Opening the Python code in ChimeraX defines the commands.
 
     open lightsheet.py
 
@@ -13,8 +13,13 @@ And here is an example use of the 3 commands.
 
 <a href="lightsheet.png"><img src="lightsheet.png" width="600"></a>
 
-There are additional options to all 3 commands to set dimensions, colors, and positions that you can see in the Python code.
+There are additional options to these commands to set axis thickness, colors (name or red,green,blue,opacity), and timestamp position that you can see in the Python code.  Here are examples of these options.
 
+      outline #1 edgeRadius .5
+      coverslip #1 color lightblue
+      coverslip #1 color 90,90,90,30
+      timestamp xpos .5 ypos .9 color yellow
+      
 Here is the Python code [lightsheet.py](lightsheet.py)
 
 <pre>
