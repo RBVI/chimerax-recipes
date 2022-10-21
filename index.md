@@ -11,6 +11,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Show colored axes and coverslip for 3D image data and a timestamp label](lightsheet/lightsheet.md).  October 20, 2022
  * [Show convex hull for a set of atoms](convex_hull/convex_hull.md).  October 10, 2022
  * [Animate a phage tail helix contracting](helixwave/helixwave.md).  September 11, 2022
  * [Lookup residues by chain identifer and residue number](residues/residues.md).  August 2, 2022
