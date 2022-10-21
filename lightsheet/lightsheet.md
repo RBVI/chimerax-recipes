@@ -1,6 +1,6 @@
 # Colored axes, coverslip and timestamp
 
-Shayne Quinn [asked](https://www.rbvi.ucsf.edu/pipermail/chimerax-users/2022-October/004467.html) about axis colored outline boxes for lightsheet microscopy data, showing a cover slip as a gray rectangle, and showing a time stamp, on the ChimeraX mailing list.  Below is Python code defining 3 ChimeraX commands to show those things.  Opening the Python code in ChimeraX defines the commands.
+Shayne Quinn [asked](https://www.rbvi.ucsf.edu/pipermail/chimerax-users/2022-October/004467.html) about axis colored outline boxes for lightsheet microscopy data, showing a cover slip as a gray rectangle, and showing a time stamp, on the ChimeraX mailing list.  These tasks can be done with the [shape](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/shape.html#rectangle), [marker](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/marker.html), and [2dlabel](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/2dlabels.html) ChimeraX commands and the Python code just simplifies specifying the positions to align axes and coverslip slab with already opened 3d image data.  Below is Python code defining 3 ChimeraX commands to show those things.  Opening the Python code in ChimeraX defines the commands.
 
     open lightsheet.py
 
