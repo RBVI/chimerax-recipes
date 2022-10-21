@@ -40,7 +40,7 @@ The saved movie file [cell6.mp4](cell6.mp4) will play back at 5 frames per secon
 
 ## How to show the time in seconds
 
-The example above puts a time in seconds in the lower right corner, assuming that my 30 microscopy images were acquired in a total of 6 seconds.  It shows the time with one digit past the decimal point (the "format %.1f" option). To instead put an integer frame count I could instead use this perframe command
+The example above puts a time in seconds in the lower right corner, assuming that my 30 microscopy images were acquired in a total of 6 seconds.  It shows the time with one digit past the decimal point (the "format %.1f" option). To put an integer frame count I could instead use this perframe command
 
     perframe "2dlabel change timestamp text $1" frames 30
 
