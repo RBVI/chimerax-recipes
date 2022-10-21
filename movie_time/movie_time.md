@@ -1,6 +1,11 @@
 # Show a time label while playing a volume series
 
-Here is how to show a time label when recording a movie playing through a volume series.  It uses the  [perframe](https://www.rbvi.ucsf.edu/chimerax/docs/user/commands/perframe.html) command and the [2dlabel](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/2dlabels.html) command to update a label for each frame.
+Here is how to show a time label when recording a movie playing through a volume series.  It uses the  [perframe](https://www.rbvi.ucsf.edu/chimerax/docs/user/commands/perframe.html) command and the [2dlabel](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/2dlabels.html) command to update a label for each frame.  Here is what the recorded movie [cell6.mp4](cell6.mp4) looks like.
+
+<video width="400" height="300" controls>
+  <source src="cell6.mp4" type="video/mp4">
+</video>
+
 
 ## Setting up the scene
 
@@ -27,15 +32,11 @@ To record the movie I put these commands in a ChimeraX command file [cell6.cxc](
     wait 30
     movie encode cell6.mp4 framerate 5 quality high
 
-and then open that command script in ChimeraX to run it.  The saved movie file [cell6.mp4](cell6.mp4) will play back at 5 frames per second because of the "framerate 5" option.
+and then open that command script in ChimeraX to run it.
 
     open cell6.cxc
- 
-Here is what the recorded movie [cell6.mp4](cell6.mp4) looks like.
 
-<video width="640" height="480" controls>
-  <source src="cell6.mp4" type="video/mp4">
-</video>
+The saved movie file [cell6.mp4](cell6.mp4) will play back at 5 frames per second because of the "framerate 5" option.
 
 ## How to show the time in seconds
 
