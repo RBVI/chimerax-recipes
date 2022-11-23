@@ -15,11 +15,11 @@ and show the Python Shell, menu Tools / General / Shell and type the following P
     8aie 4609 atoms 792 residues 2 chains
 
     <b>a = m.atoms[50]</b>
-    <b>print('Atom', a.string(), 'at', a.coord, 'with bfactor', a.bfactor)</b>
+    <b>print('Atom', a, 'at', a.coord, 'with bfactor', a.bfactor)</b>
     Atom /A ILE 6 O at [5.626 -27.109 17.19] with bfactor 32.77000045776367
 
     <b>r = a.residue</b>
-    <b>print('Residue', r.string(), 'has atoms', ', '.join(atom.name for atom in r.atoms))</b>
+    <b>print('Residue', r, 'has atoms', ', '.join(atom.name for atom in r.atoms))</b>
     Residue /A ILE 6 has atoms N, CA, C, O, CB, CG1, CG2, CD1
 
     <b>c = r.chain</b>
