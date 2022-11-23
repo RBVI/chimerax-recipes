@@ -1,0 +1,9 @@
+open cell6_1ch*.tif vseries true
+volume #1 level 130 step 1
+volume #1 voxelSize .1,.1,.25
+lighting soft
+set bgcolor white
+graphics silhouettes true
+windowsize 800 600
+2dlabel create timestamp text "" xpos 0.9 ypos 0.05
+save cell6.cxs
