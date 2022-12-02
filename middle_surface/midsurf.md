@@ -14,11 +14,8 @@ And here is an example opening a 3-channel 3D microscope image [cell14.tif](cell
 
 The midsurf command can be run multiple times until it the surface coverges to the highest intensity position.  The first image shows the cell with the membrane cut in half, and the second image shows the computed middle surface in transparent yellow.
 
-<table>
-<tr>
-<td><img src="cell14.png" width="500">
-<td><img src="cell14_midsurf.png" width="500">
-</table>
+|---|---|
+|<img src="cell14.png" width="500">|<img src="cell14_midsurf.png" width="500">|
 
 ## More Options
 
