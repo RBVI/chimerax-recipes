@@ -12,6 +12,8 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Move a surface to highest intensity in 3D microscope image](middle_surface/midsurf.md).  December 1, 2022
+ * [Inspect atomic data structues interactively in Python](inspect/inspect.md).  November 23, 2022
  * [Show colored axes and coverslip for 3D image data and a timestamp label](lightsheet/lightsheet.md).  October 20, 2022
  * [Show convex hull for a set of atoms](convex_hull/convex_hull.md).  October 10, 2022
  * [Animate a phage tail helix contracting](helixwave/helixwave.md).  September 11, 2022
