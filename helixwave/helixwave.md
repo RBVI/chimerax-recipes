@@ -2,13 +2,13 @@
 
 Here we morph a helical tube made of proteins from one pitch to another starting at one end and progressing to the other end in a wave.  This is a model of how phage tails contract to push a needle through a target cell through which the phage injects its genome.  The wave propagation is described in
 
-    [https://pubmed.ncbi.nlm.nih.gov/34117062/](Quantitative description of a contractile macromolecular machine)
+    [Quantitative description of a contractile macromolecular machine](https://pubmed.ncbi.nlm.nih.gov/34117062/)
     Alec Fraser, Nikolai S Prokhorov, Fang Jiao, B Montgomery Pettitt, Simon Scheuring, Petr G Leiman
     Sci Adv. 2021 Jun 11;7(24)
 
 and we animate it for the phage T4 tail described in
 
-    [https://pubmed.ncbi.nlm.nih.gov/30905475/](Cryo-EM Structure and Assembly of an Extracellular Contractile Injection System.)
+    [Cryo-EM Structure and Assembly of an Extracellular Contractile Injection System.](https://pubmed.ncbi.nlm.nih.gov/30905475/)
     Jiang F, Li N , Wang X, Cheng J, Huang Y, Yang Y, Yang J, Cai B, Wang YP, Jin Q, Gao N  
     Cell, 2019, 177, 370-383
 
