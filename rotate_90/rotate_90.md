@@ -16,7 +16,7 @@ The rotation command makes a copy of the map.
 
 <img src="rotate_90.png" width="300">
 
-Here is the [rotate_90.py](rotate_90.py) code, for ChimeraX 1.2.5 or newer.
+Here is the [rotate_90.py](rotate_90.py) code, for ChimeraX 1.4 or newer.
 
     # Create command "volume rotate90" to rotate a map 90 degrees about z.
     #
