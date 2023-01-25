@@ -14,7 +14,7 @@ Then open a map and apply the command
 
 The rotation command makes a copy of the map.
 
-<img src="rotate90.png" width="300">
+<img src="rotate_90.png" width="300">
 
 Here is the [rotate_90.py](rotate_90.py) code, for ChimeraX 1.2.5 or newer.
 
