@@ -2,6 +2,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Command Examples
 
+ * [Show a transparent surface with shadows](shadows_time/shadows.md).  February 10, 2023
  * [Record a microscopy movie with a time label](movie_time/movie_time.md).  October 21, 2022
  * [Measure a virus interior volume](virus_volume/virusvol.md).  November 3, 2021
  * [Record a movie flipping through electron microscopy planes](planes/planes.md).  April 22, 2021
