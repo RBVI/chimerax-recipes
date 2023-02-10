@@ -26,6 +26,7 @@ Here is an example of all these tricks.
     light full
 
 <table>
+
 <tr>
 <td><img src="image1.png"><br>Opaque surface soft lighting.
 <td><img src="image2.png"><br>Transparent surface.
@@ -34,6 +35,7 @@ Here is an example of all these tricks.
 <td><img src="image4.png"><br>Atomic model dark.
 <td><img src="image5.png"><br>Atomic model without shadows.
 <td><img src="image6.png"><br>Full lighting.
+
 </table>
 
 
