@@ -13,7 +13,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
- * [Copy coordinates bwtween conformers](copycrds/copycrds.md).  February 24, 2023
+ * [Copy coordinates between conformers](copycrds/copycrds.md).  February 24, 2023
  * [Rotate a density map 90 degrees about z axis](rotate_90/rotate_90.md).  January 25, 2023
  * [Move a surface to highest intensity in 3D microscope image](middle_surface/midsurf.md).  December 1, 2022
  * [Inspect atomic data structues interactively in Python](inspect/inspect.md).  November 23, 2022
