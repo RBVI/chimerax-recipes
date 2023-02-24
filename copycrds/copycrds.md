@@ -56,4 +56,4 @@ def register_command(session):
 
 register_command(session)
 
-Tom Goddard, September 3, 2020
+Eric Pettersen, February 24, 2023
