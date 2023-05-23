@@ -2,6 +2,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Command Examples
 
+ * [Realign a map so symmetry axis is along z](symbox/symbox.md).  May 22, 2023
  * [Show a transparent surface with shadows](shadows/shadows.md).  February 10, 2023
  * [Record a microscopy movie with a time label](movie_time/movie_time.md).  October 21, 2022
  * [Measure a virus interior volume](virus_volume/virusvol.md).  November 3, 2021
