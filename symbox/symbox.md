@@ -21,7 +21,7 @@ In this example I make the map from atomic model [PDB 7qa1](https://www.rcsb.org
     volume resample #2 onGrid #3
     save aligned.mrc models #4
     
-The rotation by 89.942 degrees was from acos(0.00101434), the arc-cosine of the z component of the symmetry axis unit vector z component.  The tilt is done about axis -vy,vx,0 in the xy plane which is perpendicular to the projection of the symmetry axis vx,vy,vz.
+The rotation by 89.942 degrees was from acos(0.00101434), the arc-cosine of the z component of the symmetry axis unit vector z component.  The tilt is done about axis -vy,vx,0 in the xy plane which is perpendicular to the symmetry axis vx,vy,vz.
 
 <table>
 <tr>
