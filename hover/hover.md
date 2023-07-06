@@ -1,15 +1,15 @@
 # Make hovering mouse over an atom run Python code
 
-The atom names that popup when you hover over the mouse appear because the mousemode command has mode "identify object" assigned to the pause event.  You can see the active mouse modes by typing the mousemode ChimeraX command:
+The atom names that popup when you hover over the mouse appear because the mode "identify object" is assigned to the mouse pause event.  You can see the active mouse modes by typing the [mousemode](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/ui.html#mousemode) ChimeraX command:
 
 <pre>
-    <b>mousemode</b>
-    left: rotate
-    control left: select
-    middle: translate
-    right: translate
-    wheel: zoom
-    pause: identify object
+<b>mousemode</b>
+left: rotate
+control left: select
+middle: translate
+right: translate
+wheel: zoom
+pause: identify object
 </pre>
 
 and setting the pause mode is done using a command like
@@ -20,7 +20,7 @@ You could write some Python code to define a new mouse mode to do whatever you w
 
     ChimeraX.app/Contents/lib/python3.9/site-packages/chimerax/mouse_modes/std_modes.py
 
-Looking at the "identify object" code I see it invokes a trigger which can run other code, so you could leave the pause mouse mode as "identify object" and just add some Python code that will do something when hovering in addition to the usual showing the atom name.  Here is an example that logs the atom x,y,z position when you hover over it.
+Looking at the "identify object" code I see it invokes a [trigger](https://www.rbvi.ucsf.edu/chimerax/docs/devel/modules/core/triggerset.html) which can run other code, so you could leave the pause mouse mode as "identify object" and just add some Python code that will do something when hovering in addition to the usual showing the atom name.  Here is an example that logs the atom x,y,z position when you hover over it.
 
     def mouse_hover(trigger_name, pick):
         from chimerax.atomic import PickedAtom
