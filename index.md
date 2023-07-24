@@ -14,7 +14,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
- * [Run Python code whem mouse hovers over atom](hover/hover.md).  July 6, 2023
+ * [Run Python code when mouse hovers over atom](hover/hover.md).  July 6, 2023
  * [Copy coordinates between conformers](copycrds/copycrds.md).  February 24, 2023
  * [Rotate a density map 90 degrees about z axis](rotate_90/rotate_90.md).  January 25, 2023
  * [Move a surface to highest intensity in 3D microscope image](middle_surface/midsurf.md).  December 1, 2022
