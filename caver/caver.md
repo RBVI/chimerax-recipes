@@ -1,8 +1,6 @@
 # Show CAVER tunnels
 
-Here is how to show [CAVER](https://caver.cz) tunnels in biomolecular structures in ChimeraX.  We'll look at example data [caver_1bl8.zip](caver_1bl8.zip)that comes with CAVER 3.0 for potassium channel PDB [1bl8](https://www.rcsb.org/structure/1bl8).
-
-CAVER produces a PDB file for each tunnel in the directory
+Here is how to show [CAVER](https://caver.cz) tunnels in biomolecular structures in ChimeraX.  We'll look at example data [caver_1bl8.zip](caver_1bl8.zip) that comes with CAVER 3.0 for potassium channel PDB [1bl8](https://www.rcsb.org/structure/1bl8). CAVER produces a PDB file for each tunnel in the directory
 
     results/data/clusters_timeless
 
@@ -20,7 +18,7 @@ We can open all those in ChimeraX, then change the atoms to sphere style.
     open ~/Downloads/caver_1bl8/results/data/clusters_timeless/tun*.pdb
     style #2-36 sphere
 
-<img src="images/caver_1bl8_paths.jpg">
+<img src="images/caver_1bl8_paths.jpg" height=460>
 
 The tunnel radius for each atom is given as the bfactor.  ChimeraX does not have a command to set the radius to the b-factor value right now, but we can do it with some Python.  First select all the tunnels
 
@@ -36,13 +34,13 @@ Alternatively you can type the following Python code into the ChimeraX Python sh
     for a in selected_atoms(session):
       a.radius = a.bfactor
 
-<img src="images/caver_1bl8_spheres.jpg">
+<img src="images/caver_1bl8_spheres.jpg" height=460>
 
 You can color each tunnel differently with
 
     rainbow #2-36 structures
 
-<img src="images/caver_1bl8_colored.jpg">
+<img src="images/caver_1bl8_colored.jpg" height=460>
 
 You can flip through them showing each individually with
 
@@ -53,14 +51,14 @@ The tunnels also look nicer as surfaces instead of atoms
     surface #2-36
     hide #2-36 atoms
 
-If you hover your mouse over the central channel tunnel you see it is model #23.  I can show just that one and color it by electrostatic potential of the protein as in Elaine's MOLE tutorial (https://www.rbvi.ucsf.edu/chimerax/data/mole-channel/mole-channel.html#radius)
+If you hover your mouse over the central channel tunnel you see it is model #23.  I can show just that one and color it by electrostatic potential of the protein as in Elaine's MOLE tutorial (https://www.rbvi.ucsf.edu/chimerax/data/mole-channel/mole-channel.html)
 
     hide #!2-36 models
     show #23 model
 
     coulombic protein surfaces #23 offset -1
 
-Also to see the side-chains that come close to the central tunnel I can use the clashes command
+Also to see the side-chains that come close to the central tunnel I can use the [clashes](https://www.rbvi.ucsf.edu/chimerax/docs/user/commands/clashes.html) command
 
     clashes #23 restrict #1 overlapCutoff -1 reveal true
 
@@ -68,7 +66,7 @@ That reshows the tunnel atoms so hide them again
 
     hide #23 atoms
 
-<img src="images/caver_1bl8_center.jpg">
+<img src="images/caver_1bl8_center.jpg" height=460>
 
 Elaine's [ChimeraX MOLE tutorial](https://www.rbvi.ucsf.edu/chimerax/data/mole-channel/mole-channel.html) also shows electrostatic surfaces on the protein, and she gave a [journal-club review of tunnel programs](https://www.cgl.ucsf.edu/home/meng/jclub/tunnels.html).
 
