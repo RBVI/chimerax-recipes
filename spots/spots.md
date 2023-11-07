@@ -2,6 +2,8 @@
 
 This code adds a "spots" command to ChimeraX to identify spots in 3D microscopy data and report their intensity, volume, and position.  It identifies the spots and quantifies them using the Segger tool in ChimeraX (menu Tools / Volume Data / [Segment Map](https://www.cgl.ucsf.edu/chimerax/docs/user/tools/segment.html)) which does watershed segmentation.  That graphical user interface has no equivalent command, so the Python code below calls Segger to find the spots, then writes out comma-separated-values describing each spot.
 
+## Simple Example
+
 Here is an example use.  The "open spots.py" defines the new spots command
 
     open 34550 from emdb
@@ -23,6 +25,8 @@ The threshold option of the spots command sets the number of standard deviations
 
 <img src="emd_34550_spots.png" width="300">
 
+## Light Microscopy Example for Processing Many 3D Images
+
 This code was developed for Charles Arthur at UC San Francisco to look at foci of fluorescently labeled molecules in 3D light microscopy of hundreds of cells.  Here is how to apply it to many maps in the same directory, writing a CSV file of spot measurements and an image for each map with file names matching the map file with suffixes .csv and .png.  It uses the ChimeraX open command [forEachFile](https://www.rbvi.ucsf.edu/chimerax/docs/user/commands/open.html#foreachfile) option to run a set of ChimeraX commands after opening each file.
 
     open spots.cxc forEachFile cell_*.tif
@@ -39,6 +43,8 @@ The microscopy image files are cell_*.tif and each has 4 channels (model numbers
 The cell images look like
 
 <img src="cells.png" width="500">
+
+## Spots Python code
 
 Here is the [spots.py](spots.py) code that defines the spots command
 
