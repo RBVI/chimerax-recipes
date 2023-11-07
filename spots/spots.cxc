@@ -1,0 +1,7 @@
+spots #1.2 threshold 10 out "$file.csv"
+
+# Save an image with the membrane
+volume #1.1 style surface color lightgray transparency 0.8
+hide #1.2-4 model
+view
+save "$file.png"
