@@ -1,6 +1,6 @@
 # Quantify spots in 3D microscopy
 
-This code adds a "spots" command to ChimeraX to identify spots in 3D microscopy data and report their intensity, volume, and position.  It identifies the spots and quantifies them using the Segger tool in ChimeraX (menu Tools / Volume Data / [Segment Map](https://www.cgl.ucsf.edu/chimerax/docs/user/tools/segment.html)).  That graphical user interface has no equivalent command, so the Python code below calls Segger to find the spots, then writes out comma-separated-values describing each spot.
+This code adds a "spots" command to ChimeraX to identify spots in 3D microscopy data and report their intensity, volume, and position.  It identifies the spots and quantifies them using the Segger tool in ChimeraX (menu Tools / Volume Data / [Segment Map](https://www.cgl.ucsf.edu/chimerax/docs/user/tools/segment.html)) which does watershed segmentation.  That graphical user interface has no equivalent command, so the Python code below calls Segger to find the spots, then writes out comma-separated-values describing each spot.
 
 Here is an example use.  The "open spots.py" defines the new spots command
 
@@ -18,6 +18,8 @@ with output of measurements for 13 spots that looks like
 ...
 13,0.046948,0.046948,0.046948,1,112,88,101
 </pre>
+
+The threshold option of the spots command sets the number of standard deviations above the mean map value for segmenting the map.  There is also a smooothingSteps option (default 0) that can reduce the number of spots by combining nearby ones, a typical value would be 3.  The output gives the total intensity for each spot which is the sum of the map value at all grid points within the spot.  It also gives mean intensity and maximum intensity for each spot, and the number of grid points in the map covered by the spot, and the grid x,y,z indices of the maxima for each spot.
 
 <img src="emd_34550_spots.png" width="300">
 
