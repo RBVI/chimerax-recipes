@@ -1,5 +1,21 @@
 # Set atom radius using bfactor
 
+Note that beginning with the ChimeraX 1.8 daily build, there is now an "size byattribute" command that provides the same kind of functionality as this recipe.  The commands to exactly duplicate the recipe example would be:
+
+	open 7w91
+	size byattr bfactor 20:.6 300:9
+
+though simply:
+
+	open 7w91
+	size byattr bfactor
+
+produces a very reasonable result.
+
+Eric Pettersen, November 22, 2023
+
+## Previous recipe for reference
+
 Here is Python code defining a command "atomsize" that sets the radius of atom spheres to be proportional to an attributre such as bfactor.  Zhiyuan Liu [asked](https://mail.cgl.ucsf.edu/mailman/archives/list/chimerax-users@cgl.ucsf.edu/thread/SOU7SFWCXBL3J6DUSZ5YJMDORGKWCJON/) about this for showing gene expression on genome structure models in ChimeraX.  Here is an example that shows atom radii proportional to bfactor.
 
     open atomsize.py
