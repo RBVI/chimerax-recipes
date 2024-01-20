@@ -16,6 +16,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Search AlphaFold database for transmembrane proteins](alphafold_mining/af_mining.md).  January 19, 2024
  * [Measure spots seen in 3D microscopy](spots/spots.md).  November 6, 2023
  * [Set atom size proportional to bfactor](atomsize/atomsize.md).  July 24, 2023
  * [Run Python code when mouse hovers over atom](hover/hover.md).  July 6, 2023
