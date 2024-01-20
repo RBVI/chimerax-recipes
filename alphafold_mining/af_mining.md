@@ -193,4 +193,29 @@ Here is the ChimeraX Python script that does the search [cyssearch.py](cyssearch
     me = '\n'.join(f'{uniprot_id} {seq_length}' for uniprot_id, seq_length in missing)
     print(f'No alphafold model for {len(missing)} entries with transmembrane regions:\n{me}')
 
+# Modifications
+
+The script can easily be modified to instead find all C elegans proteins with at least 4 transmembrane helices where one of those helices has at least 5 cysteines.  And we can load those structures with the transmembrane helices selected.  Here is the script [cys3search.py](cys3search.py) that does that, and the 12 structures found are listed and shown below.
+
+    19827 UniProt entries
+    5756 entries with annotated transmembrane regions
+    4518 entries with 1 or more transmembrane cysteines
+    12 UniProt entries with 5 cysteines in one transmembrane helix and at least 4 transmembrane helices
+
+    # UniProt ID, protein name, number of transmembrane segments, maximum single segment cysteines)
+    Q7YWW4,Conserved plasma membrane protein,4,5
+    Q22937,Serpentine receptor class gamma,7,5
+    Q93340,Candidate tumor suppressor protein,4,7
+    Q19983,,4,5
+    Q4PIV2,Claudin domain-containing protein 1,4,5
+    Q5DX32,,7,6
+    Q9GUE2,Seven TM Receptor,7,6
+    O45337,Seven TM Receptor,7,5
+    Q9GUE1,Seven TM Receptor,7,5
+    G5EFG6,Small integral membrane protein,4,8
+    Q9NEQ0,,4,5
+    Q9XXR9,SSD domain-containing protein,11,5
+
+<img src="5cys_4helix.png" width="800">
+
 Tom Goddard, January 19, 2024
