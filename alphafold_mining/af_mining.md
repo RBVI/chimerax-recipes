@@ -1,14 +1,14 @@
 # Search AlphaFold database for transmembrane cysteines
 
-This is an example of searching the C elegans proteome for transmembrane proteins that have at least two nearby cysteines.  This uses AlphaFold database predicted structures and UniProt annotations to identify transmembrane residues.  It searches 19827 UniProt entries for C elegans, finds 5756 with annotated transmembrane regions, and then finds 783 proteins with two cysteines in the transmembrane region closer than 5 Angstroms to each other (SG to SG atom distance).  The search takes 36 seconds on a Mac laptop, so it is feasible to try many variations of this kind of structural feature search in a short time.
+This is an example of searching the C elegans proteome for transmembrane proteins that have at least two nearby cysteines in the membrane.  This uses [AlphaFold database](https://alphafold.com) predicted structures and UniProt annotations to identify transmembrane residues.  It searches 19827 [UniProt entries for C elegans](https://www.uniprot.org/proteomes/UP000001940), finds 5756 with annotated transmembrane regions, and then finds 783 proteins with two cysteines in the transmembrane region closer than 5 Angstroms to each other (SG to SG atom distance).  The search takes 36 seconds on a Mac laptop, so it is feasible to try many variations of this kind of structural feature search in a short time.
 
-## UniProt Data
+## UniProt sequence annotations
 
-In order to make the search fast we download in advance the [UniProt annotations for all C elegans proteins](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000001940/UP000001940_6239.xml.gz) as a single XML file (193 Mbytes).  The [C elegans proteome](https://www.uniprot.org/proteomes/UP000001940) is described here
+In order to make the search fast we download in advance the [UniProt annotations for all C elegans proteins](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000001940/UP000001940_6239.xml.gz) as a single XML file (193 Mbytes).  The [C elegans proteome](https://www.uniprot.org/proteomes/UP000001940) is described [here](https://www.uniprot.org/proteomes/UP000001940)
 
     https://www.uniprot.org/proteomes/UP000001940
 
-and the XML file is here
+and the XML file is [here](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000001940/UP000001940_6239.xml.gz)
 
     https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000001940/UP000001940_6239.xml.gz
 
@@ -31,14 +31,14 @@ We put the structures in a directory called alphafold_models and uncompress them
 
 ## Running the search in ChimeraX
 
-Opening the Python script [cyssearch.py](cyssearch.py) in ChimeraX 1.7 then does the search and prints the results to the log.  The script uses standard Python capabilities to read the UniProt annotation XML file, and uses ChimeraX capabilities to read the AlphaFold structures to measure distances between cysteines.
+Opening the Python script [cyssearch.py](cyssearch.py) in ChimeraX 1.7 then does the search and prints the results to the ChimeraX log.  The script uses standard Python capabilities to read the UniProt annotation XML file, and uses ChimeraX capabilities to read the AlphaFold structures to measure distances between cysteines.
 
 Use ChimeraX commands to change to the directory with the UniProt XML file, Python script and alphafold_models directory, then open the script in ChimeraX.
 
     cd ~/af_search
     open cyssearch.py
 
-The following [output](results.txt) is logged listing the UniProt ids with pairs of cysteines and also a short list of structures for which there was no AlphaFold model (too new 2022 or too large >1400 amino acids for AlphaFold database).
+The following [output](results.txt) is logged listing the UniProt ids with residue numbers for pairs of close cysteines. At the end of the output is a list of structures for which there was no AlphaFold model (too new 2022 or too large >1400 amino acids for AlphaFold database).
 
     19827 UniProt entries
     5756 entries with annotated transmembrane regions
@@ -83,7 +83,7 @@ The following [output](results.txt) is logged listing the UniProt ids with pairs
 
 ## Example structure
 
-Here is an image of the protein Q9GYP2, an uncharacterized protein with a cluster 11 closely spaced cysteines near transmembrane helices.
+Here is an image of the uncharacterized protein [Q9GYP2](https://www.uniprot.org/uniprotkb/Q9GYP2/entry) with a cluster 11 closely spaced cysteines in or near transmembrane helices.
 
 <img src="Q9GYP2.png" width="300">
 
