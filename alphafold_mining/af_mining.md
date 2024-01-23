@@ -195,7 +195,7 @@ Here is the ChimeraX Python script that does the search [cyssearch.py](cyssearch
 
 # Modifications
 
-The script can easily be modified to instead find all C elegans proteins with at least 4 transmembrane helices where one of those helices has at least 5 cysteines.  And we can load those structures with the transmembrane helices selected.  Here is the script [cys3search.py](cys3search.py) that does that, and the 12 structures found are listed and shown below.
+The script can easily be modified to instead find all C elegans proteins with at least 4 transmembrane helices where one of those helices has at least 5 cysteines.  And we can load those structures with the transmembrane helices selected.  Here is the script [cyssearch_v2.py](cyssearch_v2.py) that does that, and the 12 structures found are listed and shown below.
 
     19827 UniProt entries
     5756 entries with annotated transmembrane regions
@@ -216,6 +216,12 @@ The script can easily be modified to instead find all C elegans proteins with at
     Q9NEQ0,,4,5
     Q9XXR9,SSD domain-containing protein,11,5
 
-<img src="5cys_4helix.png" width="800">
+<img src="5cys_4helix.png" width="1000">
+
+# More modifications
+
+Denke Ma suggested filtering to proteins with at least 4 transmembrane helices and looking for pairs of cysteines separated by 0, 1, or 2 residues (CC, CxC, CxxC) in each helix and requiring two helices to have pairs with distance at most 10 Angstroms from a cysteine SG atom in one helix to the other.  That gave 53 proteins [results_v3.txt](results_v3.txt) using script [cyssearch_v3.py](cyssearch_v3.py).
+
+<img src="results_v3.jpg" width="1000">
 
 Tom Goddard, January 19, 2024
