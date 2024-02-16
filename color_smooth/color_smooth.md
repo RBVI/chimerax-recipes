@@ -1,6 +1,6 @@
 # Smooth surface coloring
 
-Here is a Python script to smooth the sharp edges between colors on a molecular surface.  Pedro Bule [asked](https://mail.cgl.ucsf.edu/mailman/archives/list/chimerax-users@cgl.ucsf.edu/thread/WONOLW7JZC6RSHAPPQGMXWIKNG7KV6UA/) about how to show blurred edges on a surface colored by residue conservation.  By default ChimeraX makes sharp edges between each residue surface patch.  We start with that coloring and then diffuse the colors to nearby surfaces.  The Python code below defines the "color smooth" command when it the [color_smooth.py](color_smooth.py) file is opened in ChimeraX
+Here is a Python script to smooth the sharp edges between colors on a molecular surface.  Pedro Bule [asked](https://mail.cgl.ucsf.edu/mailman/archives/list/chimerax-users@cgl.ucsf.edu/thread/WONOLW7JZC6RSHAPPQGMXWIKNG7KV6UA/) about how to show blurred edges on a surface colored by residue conservation.  By default ChimeraX makes sharp edges between each residue surface patch.  We start with that coloring and then diffuse the colors to nearby surface points.  The Python code below defines the "color smooth" command when the [color_smooth.py](color_smooth.py) file is opened in ChimeraX
 
     open color_smooth.py
 
@@ -13,11 +13,13 @@ Here is a demonstration smoothing bfactor coloring.  Any surface coloring can be
 
 To get a smoother boundaries we can make the surface triangles smaller
 
-   surface gridspacing 0.3
-   color bfactor #1
-   color smooth #1
+    surface gridspacing 0.3
+    color bfactor #1
+    color smooth #1
    
-<img src="bfactor_8vgz.png" height="300"><img src="bfactor_smooth.png" height="300"><img src="bfactor_smoother.png" height="300">
+<img src="bfactor_8vgz.png" height="200"><img src="bfactor_smooth.png" height="200"><img src="bfactor_smoother.png" height="200">
+
+Left sharp edge bfactor coloring.  Middle smoothed coloring.  Right smoother using smaller surface triangles.
 
 Here is the [color_smooth.py](color_smooth.py) code:
 
