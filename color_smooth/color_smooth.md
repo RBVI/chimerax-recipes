@@ -17,7 +17,7 @@ To get a smoother boundaries we can make the surface triangles smaller
     color bfactor #1
     color smooth #1
    
-<img src="bfactor_8vgz.png" height="200"><img src="bfactor_smooth.png" height="200"><img src="bfactor_smoother.png" height="200">
+<img src="bfactor_8vgz.png" height="250"><img src="bfactor_smooth.png" height="250"><img src="bfactor_smoother.png" height="250">
 
 Left sharp edge bfactor coloring.  Middle smoothed coloring.  Right smoother using smaller surface triangles.
 
