@@ -13,9 +13,11 @@ then open a structure and use the rrdist command on it specifying a file path fo
     
 <img src="rrdist.png" height="300"><img src="8q5h.png" height="300">
 
-The black lines in the plot separate the chains, and the first to last residues run from the upper left corner of the plot down the vertical axis and to the right across the horizontal axis.  Dragging the mouse on the plot colors ribbon residues (not atoms).  See the ChimeraX AlphaFold PAE plot documentation for an explanation.  You may want to delete not protein chains before running rrdist using
+The black lines in the plot separate the chains (7 in the example shown), and the first to last residues run from the upper left corner of the plot down the vertical axis and to the right across the horizontal axis.  Dragging the mouse on the plot colors ribbon residues (not atoms).  See the ChimeraX [AlphaFold PAE plot documentation](https://www.rbvi.ucsf.edu/chimerax/docs/user/tools/alphafold.html#pae) for an explanation.  You may want to delete not protein chains before running rrdist using
 
     delete ~protein
+
+The Chimera RR Distance Map tool allowed analyzing ensembles of structures to see which distances have changed.  This code could be modified to show distance differences, but developing a full tool as in Chimera to explore these distance plots would take a lot of work.
 
 Here is the [rrdist.py](rrdist.py) code:
 
