@@ -1,4 +1,4 @@
-# Average lipophilicity to alpha helices
+# Average lipophilicity of alpha helices
 
 Here is Python code defining a command "helixmlp" that computes the average lipophilicity for each alpha helix.  The purpose was to color the helices by lipophilicity as a guide to which might be transmembrane.  The average is computed for every atom of the alpha helix weighted by its solvent accessible surface area of the helix alone.  The lipophilicity values are looked up for standard amino acids in the same way as the ChimeraX [mlp command](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/mlp.html).  The average value for each helix is assigned to all residues of the helix as the attribute named "helix_lipophilicity" and can be used to color the helix using the ChimeraX [Render by Attribute tool](https://www.rbvi.ucsf.edu/chimerax/docs/user/tools/render.html) or the equivalant [color byattribute](https://www.rbvi.ucsf.edu/chimerax/docs/user/commands/color.html#byattribute) command.
 
