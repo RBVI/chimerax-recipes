@@ -15,7 +15,9 @@ then open a structure and use the helixmlp command on it and color using, for ex
 
 <img src="8f76_lipophilicity.png" height="300">
 
-This shows a GPCR transmembrane protein.  The orange helices are lipophilic and are in the lipid membrane while the blue helices are part of intracellular G proteins.
+This shows a GPCR transmembrane protein.  The orange helices are lipophilic and are in the lipid membrane while the blue helices are part of intracellular G proteins.  Another example showing the rabbit ryanodine receptor PDB [5j8v](https://www.rcsb.org/structure/5j8v) similarly identifies the transmembrane helices.
+
+<img src="5j8v_lipophilicity.png" height="300">
 
 Here is the [helixmlp.py](helixmlp.py) code:
 
