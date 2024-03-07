@@ -16,6 +16,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Color alpha-helices by lipophilicity](helixmlp/helixmlp.md).  March 7, 2024
  * [Plot residue-residue distances](rrdist/rrdist.md).  March 5, 2024
  * [Smooth surface coloring sharp edges](color_smooth/color_smooth.md).  February 16, 2024
  * [Search AlphaFold database for transmembrane proteins](alphafold_mining/af_mining.md).  January 19, 2024
