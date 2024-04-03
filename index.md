@@ -2,7 +2,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Command Examples
 
- * [Show a protein binding pocket surface. April 3, 2023
+ * [Show a protein binding pocket surface](pocket/pocket.md). April 3, 2024
  * [Show CAVER biomolecular channels and tunnels](caver/caver.md). October 3, 2023
  * [Aliases for atomic model building as done in Coot from Oliver Clarke](https://github.com/olibclarke/chimerax-trimmings). September 6, 2023
  * [Realign a map so symmetry axis is along z](symbox/symbox.md).  May 22, 2023
