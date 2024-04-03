@@ -1,0 +1,16 @@
+# Show a binding pocket surface
+open 2zcp
+delete /b
+surface :fps sharp false
+surface protein sharp false
+measure contactArea #1.3 with #1.2 distance 3 slab -.1,0 color tan
+measure contactArea #1.3 with #1.2 distance 2.99 slab -.11,-.01 color cornflowerblue
+surface close #1
+surface dust #2,3 size 1 metric "size rank"
+hide atoms,ribbon
+show #1:fps,mg
+color C white
+set bgcolor gray
+graphics silhouettes true
+view
+
