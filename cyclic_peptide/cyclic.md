@@ -1,6 +1,10 @@
 # Show a cyclic peptide ribbon
 
-Chimerax does not close the ends of a ribbon of a cyclic peptide.  Here is a trick to make an image that shows the ribbon forming a smooth loop with no breaks.  This was requested by Stephen Rettie in a ChimeraX [ticket](https://www.rbvi.ucsf.edu/trac/ChimeraX/ticket/15360).  The idea is to extend the cyclic peptide to twice its length by going around the cycle twice, then just show the middle part as a ribbon.  The extra hidden end residues make the ribbon appear to traverse a smooth loop.  In the example file [cyclic_peptide.pdb](cyclic_peptide.pdb) the closing peptide bond is not present.  If your file has that closing bond you should delete it (selected it then command "~bond sel").  Here are commands [cyclic_peptide.cxc](cyclic_peptide.cxc) to extend chain A and show its ribbon.
+Chimerax does not close the ends of a ribbon of a cyclic peptide.  Here is a trick to make an image that shows the ribbon forming a smooth loop with no breaks.  This was requested by Stephen Rettie in a ChimeraX [ticket](https://www.rbvi.ucsf.edu/trac/ChimeraX/ticket/15360).  The idea is to extend the cyclic peptide to twice its length by going around the cycle twice, then just show the middle part as a ribbon.  The extra hidden end residues make the ribbon appear to traverse a smooth loop.
+
+<img src="cyclic_ribbon.png" height=400>
+
+In the example file [cyclic_peptide.pdb](cyclic_peptide.pdb) the closing peptide bond is not present.  If your file has that closing bond you should delete it (selected it then command "~bond sel").  Here are commands [cyclic_ribbon.cxc](cyclic_ribbon.cxc) to extend chain A and show its ribbon.
 
     # Chain A is cyclic and chain B is not cyclic in this structure
     open cyclic_peptide.pdb
@@ -26,7 +30,5 @@ Chimerax does not close the ends of a ribbon of a cyclic peptide.  Here is a tri
 
     # The chain A ribbon inherited the colors from the original two models, so recolor it.
     color #1/A pink
-
-<img src="cyclic_peptide.png" height=400>
 
 Tom Goddard, June 5, 2024
