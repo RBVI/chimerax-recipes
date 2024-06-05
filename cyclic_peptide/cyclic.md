@@ -4,7 +4,7 @@ Chimerax does not close the ends of a ribbon of a cyclic peptide.  Here is a tri
 
 <img src="cyclic_ribbon.png" height=400>
 
-In the example file [cyclic_peptide.pdb](cyclic_peptide.pdb) the closing peptide bond is not present.  If your file has that closing bond you should delete it (selected it then command "~bond sel").  Here are commands [cyclic_ribbon.cxc](cyclic_ribbon.cxc) to extend chain A and show its ribbon.
+In the example file [cyclic_peptide.pdb](cyclic_peptide.pdb) the closing peptide bond is not present.  If your file has that closing bond you should delete it (selected it then command "~bond sel").  Here are commands [cyclic_ribbon.cxc](cyclic_ribbon.cxc) to extend chain A and show its ribbon.  The [renumber](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/renumber.html) and [combine](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/combine.html) commands are used.
 
     # Chain A is cyclic and chain B is not cyclic in this structure
     open cyclic_peptide.pdb
