@@ -18,6 +18,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Plot ModelCIF pairwise residue scores](modelcif_pae/modelcif_pae.md).  October 1, 2024
  * [Color alpha-helices by lipophilicity](helixmlp/helixmlp.md).  March 7, 2024
  * [Plot residue-residue distances](rrdist/rrdist.md).  March 5, 2024
  * [Smooth surface coloring sharp edges](color_smooth/color_smooth.md).  February 16, 2024
