@@ -1,6 +1,4 @@
-# Compute all pairwise distances between residues and write to a JSON file in AlphaFold PAE
-# format so that the distance map can be displayed as a 2D plot with menu entry
-# Tools / Structure Prediction / AlphaFold Error Plot.
+# Read pairwise residue scores from a ModelCIF file and plot them in ChimeraX.
 
 def modelcif_pae(session, structure, json_output_path = None, metric_id = None, default_score = 100):
 

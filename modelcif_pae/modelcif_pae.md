@@ -1,27 +1,25 @@
 # Plot ModelCIF pairwise residue scores
 
-Here is Python code defining a command "modelcif pae" that plots pairwise residue scores found in the ma_qa_metric_local_pairwise table.  These scores are often predicted aligned error values from AlphaFold.  The command writes a file in AlhpaFold JSON PAE format and opens it with the [alphafold pae](https://www.rbvi.ucsf.edu/chimerax/docs/user/commands/alphafold.html#pae) command.  Displaying pairwise scores was [requested](https://mail.cgl.ucsf.edu/mailman/archives/list/chimerax-users@cgl.ucsf.edu/thread/M2NM6E6W4RHUV5SLJANXWE4OEAE5QFLW/) by Gerardo Tauriello on the ChimeraX mailing list.
+Here is Python code defining a command "modelcif pae" that plots pairwise residue scores found in the ma_qa_metric_local_pairwise table found in some [ModelCIF](https://pubmed.ncbi.nlm.nih.gov/36828268/) files.  These scores are often predicted aligned error values from AlphaFold.  The command writes a file in AlhpaFold JSON PAE format and opens it with the [alphafold pae](https://www.rbvi.ucsf.edu/chimerax/docs/user/commands/alphafold.html#pae) command.  Displaying pairwise scores was [requested](https://mail.cgl.ucsf.edu/mailman/archives/list/chimerax-users@cgl.ucsf.edu/thread/M2NM6E6W4RHUV5SLJANXWE4OEAE5QFLW/) by Gerardo Tauriello on the ChimeraX mailing list.
 
 Here's an ChimeraX example using a Pombe histone H3/H4 and DPB3 complex ModelCIF file [003-Spombe_H3-H4_tetramer_DPB3.cif](003-Spombe_H3-H4_tetramer_DPB3.cif).
 
     open ~/Downloads/003-Spombe_H3-H4_tetramer_DPB3.cif
 
-We open the [modelcif_pae.py](modelcif_pae.py) Python code to define the modelcif pae command
+Open the [modelcif_pae.py](modelcif_pae.py) Python code to define the modelcif pae command
 
-   open ~/Downloads/modelcif_pae.py
+    open ~/Downloads/modelcif_pae.py
 
 Then create the score plot with
 
-   modelcif pae #1
+    modelcif pae #1
    
     
 <img src="pombe_h3_h4_dpb3.png" height="300"><img src="pombe_h3_h4_dpb3_pae.png" height="300">
 
 Here is the [modelcif_pae.py](modelcif_pae.py) code:
 
-    # Compute all pairwise distances between residues and write to a JSON file in AlphaFold PAE
-    # format so that the distance map can be displayed as a 2D plot with menu entry
-    # Tools / Structure Prediction / AlphaFold Error Plot.
+    # Read pairwise residue scores from a ModelCIF file and plot them in ChimeraX.
 
     def modelcif_pae(session, structure, json_output_path = None, metric_id = None, default_score = 100):
 
