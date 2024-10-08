@@ -2,6 +2,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Command Examples
 
+ * [Record a movie with a static background image](movie_background/movie_background.md). October 8, 2024
  * [Show a cyclic peptide as a closed loop ribbon](cyclic_peptide/cyclic.md). June 5, 2024
  * [Show a protein binding pocket surface](pocket/pocket.md). April 3, 2024
  * [Show CAVER biomolecular channels and tunnels](caver/caver.md). October 3, 2023
