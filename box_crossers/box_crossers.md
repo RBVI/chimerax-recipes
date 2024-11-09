@@ -1,8 +1,8 @@
 # Select residues that cross periodic box faces
 
-Molecular dynamics simulations using a periodic box will typically have structural elements that cross the periodic box boundaries during the course of the simulation.  Even simulations that have been "re-imaged" to keep the principal solute from crossing the box boundaries will frequently have other elements, such as solvents or lipids, that cross the box faces.  When viewing the trajectory such elements will seem to "leap" from one side of the simulation to the other, which may be undesirable distraction in a presentation, web page, or other contexts.
+Molecular dynamics simulations using a periodic box will typically have structural elements that cross the periodic box boundaries during the course of the simulation.  Even simulations that have been "re-imaged" to keep the principal solute from crossing the box boundaries will frequently have other elements, such as solvents or lipids, that cross the box faces.  When viewing the trajectory such elements will seem to "leap" from one side of the simulation to the other, which may be an undesirable distraction in a presentation, web page, or other contexts.
 
-The Python code below (box_crossers.py) will select residues that cross the periodic boundary during the course of the simulation.  Once selected they then could be hidden, deleted, or otherwise manipulated, such as further reducing the selection to just solvent (*e.g.* "sel sel & solvent").
+The Python code below (box_crossers.py) will select residues that cross a periodic boundary during the course of the simulation.  Once selected they then could be hidden, deleted, or otherwise manipulated, such as further reducing the selection to just solvent (*e.g.* "sel sel & solvent").
 Opening the box_crossers.py code in ChimeraX selects the boundary-crossing residues:
 
     open box_crossers.py
