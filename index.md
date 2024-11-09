@@ -19,7 +19,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
- * [Select residue that cross periodic boundaries](box_crossers/box_crossers.md).  November 8, 2024
+ * [Select residues that cross periodic boundaries](box_crossers/box_crossers.md).  November 8, 2024
  * [Plot ModelCIF pairwise residue scores](modelcif_pae/modelcif_pae.md).  October 1, 2024
  * [Color alpha-helices by lipophilicity](helixmlp/helixmlp.md).  March 7, 2024
  * [Plot residue-residue distances](rrdist/rrdist.md).  March 5, 2024
