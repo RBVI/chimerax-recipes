@@ -29,9 +29,9 @@ The .poc file is just a PDB file with the pocket number for each atom at the end
     ATOM    196  CG1 VAL B  27     -11.788  -7.554   2.677  1.00 14.96   1  POC
     ...
 
-We for the ChimeraX atom specifier from chain identifier, residue number and atom
+The script contructs the ChimeraX atom specifier from chain identifier, residue number and atom
 name.  For example, the above lines are for atoms /A:45@NH2, /B:27@O, /B:27@CG1
-in ChimeraX syntax belonging to pockets 2, 1 and 1. We then define in the code
+in ChimeraX syntax belonging to pockets 2, 1 and 1. It then defines in the code
 the name pocket1 using command "name pocket1 /B:27@O/B:27@CG1...".
 
 Yaikhomba Mutum asked on the ChimeraX mailing list about looking at pockets of
