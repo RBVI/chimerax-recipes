@@ -7,7 +7,7 @@ There is a "Save image" menu entry on ChimeraX PAE plots but there is no equival
     alphafold pae #1 uniprotId Q9H255
     savepaeplot #1 Q9H255_pae.png
 
-<img src="Q0H255_pae.png" height="300">
+<img src="Q9H255_pae.png" height="300">
 
 Here is the [savepaeplot.py](savepaeplot.py) code:
 
