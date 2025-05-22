@@ -4,9 +4,7 @@ A utility to create new models containing only selected atoms while preserving o
 
 ## Features
 - Creates copies of selected regions as new models
-- Automatically removes unselected regions from copies
-- Maintains original model organization
-- Preserves chain/residue organization in copied models
+
 
 ## Installation
 1. Save the following code as [copy.py](copy.py)
@@ -15,11 +13,11 @@ A utility to create new models containing only selected atoms while preserving o
    - `C:\Users\<you>\AppData\Roaming\ChimeraX\scripts\` (Windows)
 
 ## Usage
-1. Select atoms using any selection method:
-  
-        select #1/A:100-200
+1. Copy defined selection:
 
-2. Run command:  
+         copy #1/A:100-200
+
+3. Copy selected region:  
    
          copy sel
 
