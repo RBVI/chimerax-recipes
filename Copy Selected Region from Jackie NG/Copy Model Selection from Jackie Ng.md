@@ -7,7 +7,7 @@ A utility to create new models containing only selected atoms while preserving o
 
 
 ## Installation
-1. Save the following code as [copy.py](copy.py)
+1. Save the following code as [Copy.py](Copy.py)
 2. Place the file in your ChimeraX scripts folder:
    - `~/ChimeraX/scripts/` (Linux/Mac)
    - `C:\Users\<you>\AppData\Roaming\ChimeraX\scripts\` (Windows)
