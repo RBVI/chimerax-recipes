@@ -19,6 +19,7 @@ These are examples of [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) command use
 
 ## Python Examples
 
+ * [Copy selected atoms](Copy Selected Region from Jackie NG/Copy Model Selection from Jackie Ng.md).  May 23, 2025
  * [Save an image of an Alphafold predicted aligned error (PAE) plot](save_pae_plot/savepaeplot.md).  April 14, 2025
  * [Print average Alphafold predicted aligned error values](pae_mean/pae_mean.md).  January 2, 2025
  * [Select residues that cross periodic boundaries](box_crossers/box_crossers.md).  November 8, 2024
