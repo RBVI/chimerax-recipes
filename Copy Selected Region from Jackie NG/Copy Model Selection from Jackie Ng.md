@@ -1,4 +1,4 @@
-# ChimeraX "Copy" Recipe
+# ChimeraX copy selected atoms recipe
 
 A utility to create new models containing only selected atoms while preserving original structures.
 
@@ -7,7 +7,7 @@ A utility to create new models containing only selected atoms while preserving o
 
 
 ## Installation
-1. Save the following code as [Copy.py](Copy.py)
+1. Save the following code as [copysel.py](copysel.py)
 2. Place the file in your ChimeraX scripts folder:
    - `~/ChimeraX/scripts/` (Linux/Mac)
    - `C:\Users\<you>\AppData\Roaming\ChimeraX\scripts\` (Windows)
@@ -22,7 +22,35 @@ A utility to create new models containing only selected atoms while preserving o
          copy sel
 
 ## Code Implementation
-  
+
+    print("")
+    print("Copy subset of model")
+    print("Command: copy atom-spec")
+    print("e.g.copy sel")
+
+    def copy_sel(session, atoms):
+
+        from chimerax.core.commands import run
+        for s, s_atoms in atoms.by_structure:
+            copied = run(session, f"combine {s.atomspec}")
+            copied.atoms[~s.atoms.mask(atoms)].delete()
+
+    def register_copy(session):
+
+        from chimerax.core.commands import CmdDesc, register
+        from chimerax.atomic import AtomsArg
+        desc = CmdDesc(
+            required=[('atoms', AtomsArg)],
+            synopsis='Copy selected atoms into new models, delete unselected regions, and combine original models.'
+        )
+        register('copy', desc, copy_sel, logger=session.logger)
+
+    register_copy(session)
+
+## Alternative implementation using only commands
+
+Here is an alternative implementation of this command [Copy.py](copy.py that uses just ChimeraX commands Python functions.  ⚠️ Important: Temporary models use ID 1000 - ensure this ID is available
+
      print("Copy subset of model")
      print("Command: copy model-spec")
      print("e.g. copy sel")
@@ -54,8 +82,5 @@ A utility to create new models containing only selected atoms while preserving o
          register('copy', desc, copy_sel, logger=session.logger)
      
      register_copy(session)
-
-## Notes
-⚠️ Important: Temporary models use ID 1000 - ensure this ID is available
 
 Jackie NG, May 2025
