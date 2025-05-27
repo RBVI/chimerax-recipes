@@ -49,7 +49,7 @@ A utility to create new models containing only selected atoms while preserving o
 
 ## Alternative implementation using only commands
 
-Here is an alternative implementation of this command [Copy.py](copy.py that uses just ChimeraX commands Python functions.  ⚠️ Important: Temporary models use ID 1000 - ensure this ID is available
+Here is an alternative implementation of this command [Copy.py](copy.py) that uses just ChimeraX commands Python functions.  ⚠️ Important: Temporary models use ID 1000 - ensure this ID is available
 
      print("Copy subset of model")
      print("Command: copy model-spec")
